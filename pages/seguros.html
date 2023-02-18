@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Asegura</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/header.png" alt="logo asegura">
+        </div>
+        <nav class="nav">
+            <div class="nav1">
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a>
+                    </li>
+                    <li><a href="./seguros.html">Seguros</a>
+                        <ul class="menu__submenu">
+                            <li><a href="./seguros.html">Obra</a>
+                            </li>
+                            <li><a href="./seguros.html">Viaje</a>
+                            </li>
+                            <li><a href="./seguros.html">Equipos</a>
+                                <ul class="menu__submenu__sub">
+                                    <li><a href="#">Celular</a>
+                                    </li>
+                                    <li><a href="#">Tablet</a>
+                                    </li>
+                                    <li><a href="#">Computadora</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="./seguros.html">Cuidados</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="./siniestros.html">Siniestros</a>
+                    </li>
+                    <li><a href="./nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="nav2">
+            <a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+            <a href="#"><i class="fa-solid fa-lock"></i></a>
+        </div>
+    </header>
+
+
+
+    <main class="main__seguros">
+        <section class="main__seguros1">
+            <div class="mainseguros__1a">
+                <p>Tipo de seguros</p>
+            </div>
+            <div class="mainseguros__1b">
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-hammer"></i></a>
+                    </div>
+                    <p>Obra</p>
+                </div>
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-plane-departure"></i></a>
+                    </div>
+                    <p>Viaje</p>
+                </div>
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                    </div>
+                    <p>Equipos</p>
+                </div>
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-hands-holding"></i></a>
+                    </div>
+                    <p>Cuidados</p>
+                </div>
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-car"></i></a>
+                    </div>
+                    <p>Vehículos</p>
+                </div>
+                <div class="mainseguros__1b__ic">
+                    <div class="button">
+                        <a href="#"><i class="fa-solid fa-person-snowboarding"></i></a>
+                    </div>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__seguros2">
+            <div class="seguros2__categoria">
+                <div class="model model1">
+                    <p>Categoría</p>
+                    <div class="categoria">
+                        <button>
+                            Limpieza
+                        </button>
+                    </div>
+                    <div class="categoria">
+                        <button>
+                            Técnicos
+                        </button>
+                    </div>
+                    <div class="categoria">
+                        <button>
+                            Mudanzas
+                        </button>
+                    </div>
+                    <div class="categoria">
+                        <button>
+                            Jardinería
+                        </button>
+                    </div>
+                    <div class="categoria">
+                        <button>
+                            Albañilería
+                        </button>
+                    </div>
+                    <div class="categoria">
+                        <button>
+                            Electricidad
+                        </button>
+                    </div>
+                </div>
+
+                <div class="model model2">
+                    <p>Datos de Búsqueda</p>
+                    <div class="model__padre">
+                        <form action="enviar.css" method="post" enctype="application/x-www-form-urlencoded">
+                            <div class="item item1">
+                                <label for="ubicacion">Ubicación</label>
+                                <select name="ubicacion" required>
+                                    <option>Córdoba</option>
+                                    <option>Buenos Aires</option>
+                                    <option>Santa fe</option>
+                                    <option>San Luis</option>
+                                    <option>San Juan</option>
+                                </select>
+                            </div>
+
+                            <div class="fechas">
+                                <div class="item item2">
+                                    <label for="fecha">Fecha</label>
+                                    <input type="date" name="fecha" required>
+                                </div>
+                                <div class="item item2">
+                                    <label for="fecha">Fecha</label>
+                                    <input type="date" name="fecha" required>
+                                </div>
+                            </div>
+
+                            <div class="cantidades">
+                                <div class="item item3">
+                                    <label for="cantidad">Cantidad</label>
+                                    <input type="number" name="cantidad" required>
+                                </div>
+                                <div class="item item3">
+                                    <label for="correo">Correo</label>
+                                    <input type="email" name="correo">
+                                </div>
+                            </div>
+
+                            <div class="seleccion">
+                                <div class="item4">
+                                    Edad
+                                    <div class="check">
+                                        <div class="check1">
+                                            <label for="cantidad">Persona 1</label>
+                                            <input type="number" name="cantidad" required>
+                                            <label for="cantidad">Persona 2</label>
+                                            <input type="number" name="cantidad" required>
+                                            <label for="cantidad">Persona 3</label>
+                                            <input type="number" name="cantidad" required>
+                                        </div>
+                                        <div class="check2">
+                                            <label for="cantidad">Persona 4</label>
+                                            <input type="number" name="cantidad" required>
+                                            <label for="cantidad">Persona 5</label>
+                                            <input type="number" name="cantidad" required>
+                                            <label for="cantidad">Persona 6</label>
+                                            <input type="number" name="cantidad" required>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="item4">
+                                    Plan a elegir
+                                    <div class="checkboxx">
+                                        <input type="checkbox" name="Plan">Plan Básico (cobertura parcial)
+                                        <input type="checkbox" name="Plan">Plan Regular (cobertura más elegida)
+                                        <input type="checkbox" name="Plan">Plan Premium (cobertura total)
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="aseguradoras">
+                <div class="titulo">
+                    <p>Empresas aseguradoras</p>
+                </div>
+                <div class="aseguradoras__box">
+                    <div class="cardEmpresa">
+                        <div class="nombreEmpresa">
+                            <p>lg seguros</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="ubic">
+                            <span class="frase">siempre con vos</span>
+                            <div class="direccion">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="ubic">Av. colón 4530, Buenos Aires.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardEmpresa">
+                        <div class="nombreEmpresa">
+                            <p>lg seguros</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="ubic">
+                            <span class="frase">siempre con vos</span>
+                            <div class="direccion">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="ubic">Av. colón 4530, Buenos Aires.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardEmpresa">
+                        <div class="nombreEmpresa">
+                            <p>lg seguros</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="ubic">
+                            <span class="frase">siempre con vos</span>
+                            <div class="direccion">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="ubic">Av. colón 4530, Buenos Aires.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardEmpresa">
+                        <div class="nombreEmpresa">
+                            <p>lg seguros</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="ubic">
+                            <span class="frase">siempre con vos</span>
+                            <div class="direccion">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="ubic">Av. colón 4530, Buenos Aires.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <section class="foot">
+            <div class="caja1">
+                <figure>
+                    <img src="../img/footer.png" alt="logo asegura">
+                </figure>
+                <div class="icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            <div class="caja2">
+                <div class="subboxa">
+                    <div class="subboxaP">
+                        <p>Soporte</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                    </div>
+                </div>
+                <div class="subboxb">
+                    <div class="subboxaP">
+                        <p>Mi cuenta</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Favoritos</a></li>
+                        <li><a href="#">Siniestros</a></li>
+                        <li><a href="#">Contratos</a></li>
+                        <li><a href="#">Cotizaciones</a></li>
+                    </div>
+                </div>
+                <div class="subboxc">
+                    <div class="subboxaP">
+                        <p>Secciones</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Opiniones</a></li>
+                        <li><a href="#">Valoraciones</a></li>
+                        <li><a href="#">Aseguradoras</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>

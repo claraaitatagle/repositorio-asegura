@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Asegura</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/header.png" alt="logo asegura">
+        </div>
+        <nav class="nav">
+            <div class="nav1">
+                <ul class="menu">
+                    <li><a href="./index.html">Inicio</a>
+                    </li>
+                    <li><a href="./pages/seguros.html">Seguros</a>
+                        <ul class="menu__submenu">
+                            <li><a href="./pages/seguros.html">Obra</a>
+                            </li>
+                            <li><a href="./pages/seguros.html">Viaje</a>
+                            </li>
+                            <li><a href="./pages/seguros.html">Equipos</a>
+                                <ul class="menu__submenu__sub">
+                                    <li><a href="#">Celular</a>
+                                    </li>
+                                    <li><a href="#">Tablet</a>
+                                    </li>
+                                    <li><a href="#">Computadora</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="./pages/seguros.html">Cuidados</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="./pages/siniestros.html">Siniestros</a>
+                    </li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav2">
+                <a href="./pages/Carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="main1">
+            <div class="container">
+                <div class="container__front__form">
+                    <div>
+                        <img src="./img/busqueda.png" alt="img busqueda">
+                    </div>
+                    <div class="form__box">
+                        <div class="form__box__1">
+                            <form action="php" method="post" enctype="application/x-www-form-urlencoded">
+                                <div class="box">
+                                    <label for="ubicacion">Ubicación</label>
+                                    <select name="ubicación" required>
+                                        <option>Córdoba</option>
+                                        <option>Buenos Aires</option>
+                                        <option>Santa fe</option>
+                                        <option>San Luis</option>
+                                        <option>San Juan</option>
+                                    </select>
+                                </div>
+                                <div class="box">
+                                    <label for="fecha">Fecha</label>
+                                    <input type="date" name="fecha" required>
+                                </div>
+                                <div class="box">
+                                    <label for="cantidad">Cantidad</label>
+                                    <input type="number" name="cantidad" required>
+                                </div>
+                                <div class="box">
+                                    <label for="tiposeguro">Tipo de seguro</label>
+                                    <select name="tiposeguro" required>
+                                        <option value="Obra">Obra</option>
+                                        <option value="Obra">Viaje</option>
+                                        <option value="Obra">Equipos</option>
+                                        <option value="Obra">Cuidados</option>
+                                        <option value="Obra">Vehículos</option>
+                                        <option value="Obra">Actividades</option>
+                                    </select>
+                                </div>
+                                <div class="box">
+                                    <label for="categoría">Categoría</label>
+                                    <select name="categoría" required>
+                                        <option value="Obra">Limpieza</option>
+                                        <option value="Obra">Técnicos</option>
+                                        <option value="Obra">Mudanzas</option>
+                                        <option value="Obra">Jardinería</option>
+                                        <option value="Obra">Albañilería</option>
+                                        <option value="Obra">Electricidad</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="buscarBoton">
+                        <button type="submit">Buscar</button>
+                    </div>
+                </div>
+                <div class="container__front__p">
+                    <p>Buscá, cotizá y contratá tu seguro flexible en un solo lugar</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main2">
+            <div class="main2__p">
+                <h1>¿Como funciona?</h1>
+            </div>
+            <div class="main2__contenedor2">
+                <div class="fondo">
+                    <div class="fond fond1">
+                        <h1>Busca</h1>
+                        <img src="./img/busca.png" alt="imagen buscar">
+                        <h2>Tu seguro temporal</h2>
+                    </div>
+                    <div class="fond fond2">
+                        <h1>Cotiza</h1>
+                        <img src="./img/cotiza.png" alt="imagen cotizar">
+                        <h2>De forma rápida y sencilla</h2>
+                    </div>
+                    <div class="fond fond3">
+                        <h1>Chatea</h1>
+                        <img src="./img/chatea.png" alt="imagen chatear">
+                        <h2>Con las aseguradoras</h2>
+                    </div>
+                    <div class="fond fond4">
+                        <h1>Contrata</h1>
+                        <img src="./img/contrata.png" alt="imagen contratar">
+                        <h2>Online con Asegura</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="main3">
+            <div class="main3__p">
+                <p>Empresas aseguradoras afiliadas</p>
+            </div>
+            <div class="conteiner3">
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Lg seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.5</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/obra.png" alt="Icono obra">
+                            <p>Obra</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/viaje.png" alt="Icono viaje">
+                            <p>viaje</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/cuidados.png" alt="Icono cuidados">
+                            <p>Cuidados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Recta Seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.3</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/obra.png" alt="Icono obra">
+                            <p>Obra</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/vehiculo.png" alt="Icono vehiculos">
+                            <p>Vehículos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/actividad.png" alt="Icono actividades">
+                            <p>Actividad</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Rip seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.2</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/viaje.png" alt="Icono viaje">
+                            <p>viaje</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/vehiculo.png" alt="Icono vehiculos">
+                            <p>Vehículos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/cuidados.png" alt="Icono cuidados">
+                            <p>Cuidados</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="conteiner3">
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Vital Seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.2</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/viaje.png" alt="Icono viaje">
+                            <p>viaje</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/vehiculo.png" alt="Icono vehiculos">
+                            <p>Vehículos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/cuidados.png" alt="Icono cuidados">
+                            <p>Cuidados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Marea Seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.1</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/obra.png" alt="Icono obra">
+                            <p>Obra</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/vehiculo.png" alt="Icono vehiculos">
+                            <p>Vehículos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/actividad.png" alt="Icono actividades">
+                            <p>Actividad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteiner3__empresas1">
+                    <div class="empresas__primero">
+                        <p>Terra Seguros</p>
+                        <div class="iconoPesos">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="iconoEstrella">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.1</p>
+                        </div>
+                    </div>
+                    <div class="empresas__segundo">
+                        <div class="centrar">
+                            <img src="./img/obra.png" alt="Icono obra">
+                            <p>Obra</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/viaje.png" alt="Icono viaje">
+                            <p>viaje</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/equipos.png" alt="Icono equipos">
+                            <p>Equipos</p>
+                        </div>
+                        <div class="centrar">
+                            <img src="./img/cuidados.png" alt="Icono cuidados">
+                            <p>Cuidados</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <section class="foot">
+            <div class="caja1">
+                <figure>
+                    <img src="./img/footer.png" alt="logo asegura">
+                </figure>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.google.com/search?q=asegura&oq=asegura&aqs=chrome..69i57j46i131i175i199i433i512j0i131i433i512j0i433i512j69i60l3j69i61.2622j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            <div class="caja2">
+                <div class="subboxa">
+                    <div class="subboxaP">
+                        <p>Soporte</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                    </div>
+                </div>
+                <div class="subboxb">
+                    <div class="subboxaP">
+                        <p>Mi cuenta</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Favoritos</a></li>
+                        <li><a href="#">Siniestros</a></li>
+                        <li><a href="#">Contratos</a></li>
+                        <li><a href="#">Cotizaciones</a></li>
+                    </div>
+                </div>
+                <div class="subboxc">
+                    <div class="subboxaP">
+                        <p>Secciones</p>
+                    </div>
+                    <div class="subboxaLi">
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Opiniones</a></li>
+                        <li><a href="#">Valoraciones</a></li>
+                        <li><a href="#">Aseguradoras</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
