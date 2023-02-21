@@ -333,6 +333,10 @@ html{
     letter-spacing: .5rem;
     padding-left: 1rem;
 }
+.caja1 i:hover{
+    color: #A74949;
+    transition: all .3s;
+}
 
 a .fa-google{
     font-size: 1.8rem;
@@ -660,8 +664,114 @@ a .fa-google{
 }
 
 
+                    /*PAGINA 4 NO RESPONSIVE NOSOTROS HTML SECCION */
 
-                    
+
+.nosotros__texto{
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    color: #F9F9F9;
+    background-color: #143247;
+    height: fit-content;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros__texto{
+    padding: 20px;
+}
+
+.span1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.span2{
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 20px ;
+    font-size: 20px;
+}
+
+
+.nosotros__img img{
+        position: relative;
+    height: auto;
+    width: 100%;
+}
+
+                    /*PAGINA 5 NO RESPONSIVE CARRITO HTML SECCION*/ 
+
+.main__carrito{
+    margin: 40px 0;
+}
+
+.main__carrito__contenedor{
+    width: 60%;
+    margin: auto;
+    background-color: #DCE0E4;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.cotizacion{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    background-color: #F9F9F9;
+    border-radius: 10px 10px 0 0 ;
+    border: solid 4px #143247;
+    margin: auto;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.cotizacion__texto p{
+    color: #143247;
+    text-align: center;
+}
+
+.cotizacion__texto__titulo{
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.cotizacion__borrar{
+    font-size: 30px;
+    color: #143247;
+}
+
+.button__carrito i{
+    font-size: 30px;
+    color: #F9F9F9;
+}
+
+.precio{
+    background-color: #143247;
+    color: #F9F9F9;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
                     /*      MEDIA QUERIES    */
 
 /*primer breakpoint sm-md*/
@@ -1011,7 +1121,7 @@ a .fa-google{
 
 .buscarBoton button{
     border-radius: 1.5rem;
-    height: 4rem;
+    height: 4.5rem;
     font-size: 2rem;
     font-weight: 500;
     margin-top: 2rem;
@@ -1032,7 +1142,7 @@ a .fa-google{
     letter-spacing: .15rem;
     word-spacing: .2rem;
     /*animacion*/
-    text-shadow: #A74949 5px 5px 5px 5px;
+    text-shadow: #A74949 .5rem;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-delay: 6s;
