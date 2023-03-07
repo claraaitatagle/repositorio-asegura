@@ -43,12 +43,20 @@ $xl: 5rem;
 /*80px*/
 
 /*width-height*/
-$width:100%;
-$width2:auto;
-$width3:50%;
-$height:100%;
-$height2:auto;
+$wh:100%;
+$wh1:auto;
+$wh2:50%;
 
+/*mixin*/
+@mixin sizes{
+    font-size: $small5;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    padding: 1rem;
+}
 
 /*GENERAL SETTINGS*/
 
@@ -70,7 +78,7 @@ header {
     background-color: $color1;
 
     .navbar-brand img {
-        width: $width2;
+        width: $wh1;
         height: $med3;
         padding-right: $large;
     }
@@ -94,7 +102,7 @@ header {
 
         .dropdown-menu {
             background-color: $color2;
-            width: $width3;
+            width: $wh2;
             border-radius: .8rem;
         }
     }
@@ -120,7 +128,7 @@ header {
 .main1 {
     background-image: url(../img/mainfondo.jpg);
     height: fit-content;
-    width: $width;
+    width: $wh;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -129,7 +137,7 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: $width;
+        width: $wh;
 
         .imagenMain1 {
             width: 80%;
@@ -137,7 +145,7 @@ header {
 
         .imagenMain1 img {
             height: auto;
-            width: $width;
+            width: $wh;
             margin-top: $med;
             margin-bottom: $med;
         }
@@ -150,7 +158,7 @@ header {
 
             .form__box__1 {
                 padding-top: $small2;
-                width: 100%;
+                width: $wh;
             }
 
             .box {
@@ -176,7 +184,7 @@ header {
             color: $color3;
             border-radius: .8rem;
             border: $color2;
-            width: $width;
+            width: $wh;
             height: $med3;
             font-size: $small;
             font-weight: 500;
@@ -196,3 +204,68 @@ header {
     }
 
 }
+
+
+/*MAIN 2 SETTINGS*/
+.main2{
+    height: $wh;
+    width: $wh;
+    background-color: $color1;
+    padding-top: $med;
+
+    .main2__p h2{
+        @include sizes;
+        color: $color3;
+    }
+
+    .main2__contenedor2{
+        height: $wh1;
+        width: $wh;
+        .fondo{
+            height:$wh;
+            padding: 2rem;
+            .fond{
+                background-color: $color3;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                height: 90%;
+                margin: auto;
+                width: 80%;
+                padding: 2rem;
+                margin-bottom: 2rem;
+                border-radius: 1rem;
+            }
+            .fond img{
+                height: 12.5rem;
+            }
+            
+            .fond h3 {
+                font-size: $small2;
+                padding-bottom: 1.5rem;
+                color: $color1
+            }
+            
+            .fond h4 {
+                font-size: $small;
+                padding-top: 1rem;
+                color: $color1;
+                
+            }
+        }
+        
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
