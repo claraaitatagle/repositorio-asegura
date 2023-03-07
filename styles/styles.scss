@@ -1,0 +1,198 @@
+/* GOOGLE FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+/* VARIABLES AND VALUES SETTINGS */
+
+/*color palette*/
+$color1:#143247;
+$color2: #A74949;
+$color3: #F9F9F9;
+$color4: #DCE0E4;
+
+/*font family*/
+$font:'Open Sans',
+sans-serif;
+
+/*font-sizes*/
+
+$xs: 1rem;
+/*16px*/
+$small:1.12rem;
+/*18px*/
+$small2:1.25rem;
+/*20px*/
+$small3:1.37rem;
+/*22px*/
+$small4:1.37rem;
+/*22px*/
+$small5: 1.5rem;
+/*24px*/
+$med: 1.87rem;
+/*30px*/
+$med2: 2.18rem;
+/*35px*/
+
+/*sizes*/
+$med3: 2.5rem;
+/*40px*/
+$large: 3.75rem;
+/*50px*/
+$large2: 3.75rem;
+/*60px*/
+$xl: 5rem;
+/*80px*/
+
+/*width-height*/
+$width:100%;
+$width2:auto;
+$width3:50%;
+$height:100%;
+$height2:auto;
+
+
+/*GENERAL SETTINGS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: $font;
+}
+
+
+/* PAGINA 1 INDEX RESPONSIVE */
+/* HEADER SETTINGS */
+header {
+    background-color: #143247;
+
+    .navbar-brand img {
+        width: $width2;
+        height: $med3;
+        padding-right: $large;
+    }
+
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+
+    .navbar li a {
+        color: $color3;
+        font-size: $xs;
+    }
+
+    .navbar li a:hover {
+        color: $color2;
+        transition: all .3s;
+    }
+
+    .nav-item {
+        padding-left: $large;
+
+        .dropdown-menu {
+            background-color: $color2;
+            width: $width3;
+            border-radius: .8rem;
+        }
+    }
+
+    .collapsed i {
+        color: $color3;
+    }
+
+    .navbar-toggler {
+        color: $color3;
+        background-color: $color3;
+    }
+
+    .fa-cart-shopping,
+    .fa-circle-user,
+    .fa-lock {
+        display: none;
+    }
+}
+
+/*MAIN 1 SETTINGS*/
+
+.main1 {
+    background-image: url(../img/mainfondo.jpg);
+    height: fit-content;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .cont_front_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: $width;
+
+        .imagenMain1 {
+            width: 0%;
+        }
+
+        .imagenMain1 img {
+            height: auto;
+            width: $width;
+            margin-top: $med;
+            margin-bottom: $med;
+        }
+
+        .form__box {
+            width: 80%;
+            height: 17rem;
+            background-color: $color1;
+            border-radius: .8rem;
+
+            .form_box_1 {
+                padding-top: $small2;
+                width: 100%;
+            }
+
+            .box {
+                margin-left: 4%;
+                width: 92%;
+                height: $med;
+                background-color: $color3;
+                border-radius: .6rem;
+                margin-bottom: $small2;
+                padding-top: .15rem;
+                padding-left: 1rem;
+                color: $color1;
+                font-size: $xs;
+            }
+        }
+
+        .buscarBoton {
+            width: 80%;
+        }
+
+        .buscarBoton button {
+            background-color: $color2;
+            color: $color3;
+            border-radius: .8rem;
+            border: $color2;
+            width: $width;
+            height: $med3;
+            font-size: $small;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .buscarBoton button:hover {
+            background-color: $color3;
+            border: $color2 solid;
+            color: $color2;
+        }
+    }
+
+    .cont_front_p {
+        display: none;
+    }
+
+}
