@@ -80,33 +80,33 @@ header .fa-lock {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main1 .cont_front_form {
+.main1 .cont__front__form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.main1 .cont_front_form .imagenMain1 {
-  width: 0%;
+.main1 .cont__front__form .imagenMain1 {
+  width: 80%;
 }
-.main1 .cont_front_form .imagenMain1 img {
+.main1 .cont__front__form .imagenMain1 img {
   height: auto;
   width: 100%;
   margin-top: 1.87rem;
   margin-bottom: 1.87rem;
 }
-.main1 .cont_front_form .form__box {
+.main1 .cont__front__form .form__box {
   width: 80%;
   height: 17rem;
   background-color: #143247;
   border-radius: 0.8rem;
 }
-.main1 .cont_front_form .form__box .form_box_1 {
+.main1 .cont__front__form .form__box .form__box__1 {
   padding-top: 1.25rem;
   width: 100%;
 }
-.main1 .cont_front_form .form__box .box {
+.main1 .cont__front__form .form__box .box {
   margin-left: 4%;
   width: 92%;
   height: 1.87rem;
@@ -118,10 +118,10 @@ header .fa-lock {
   color: #143247;
   font-size: 1rem;
 }
-.main1 .cont_front_form .buscarBoton {
+.main1 .cont__front__form .buscarBoton {
   width: 80%;
 }
-.main1 .cont_front_form .buscarBoton button {
+.main1 .cont__front__form .buscarBoton button {
   background-color: #A74949;
   color: #F9F9F9;
   border-radius: 0.8rem;
@@ -133,12 +133,12 @@ header .fa-lock {
   margin-top: 1.5rem;
   margin-bottom: 3rem;
 }
-.main1 .cont_front_form .buscarBoton button:hover {
+.main1 .cont__front__form .buscarBoton button:hover {
   background-color: #F9F9F9;
   border: #A74949 solid;
   color: #A74949;
 }
-.main1 .cont_front_p {
+.main1 .cont__front__p {
   display: none;
 }
 
