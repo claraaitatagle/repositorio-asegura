@@ -48,7 +48,7 @@ $wh1:auto;
 $wh2:50%;
 
 /*mixin*/
-@mixin sizes{
+@mixin sizes {
     font-size: $small5;
     text-transform: uppercase;
     text-align: center;
@@ -56,6 +56,12 @@ $wh2:50%;
     letter-spacing: 0.1rem;
     word-spacing: 0.2rem;
     padding: 1rem;
+}
+
+@mixin titles {
+    height: $wh;
+    width: $wh;
+    padding-top: $med;
 }
 
 /*GENERAL SETTINGS*/
@@ -207,24 +213,25 @@ header {
 
 
 /*MAIN 2 SETTINGS*/
-.main2{
-    height: $wh;
-    width: $wh;
+.main2 {
+    @include titles;
     background-color: $color1;
-    padding-top: $med;
 
-    .main2__p h2{
+
+    .main2__p h2 {
         @include sizes;
         color: $color3;
     }
 
-    .main2__contenedor2{
+    .main2__contenedor2 {
         height: $wh1;
         width: $wh;
-        .fondo{
-            height:$wh;
+
+        .fondo {
+            height: $wh;
             padding: 2rem;
-            .fond{
+
+            .fond {
                 background-color: $color3;
                 display: flex;
                 flex-direction: column;
@@ -237,35 +244,106 @@ header {
                 margin-bottom: 2rem;
                 border-radius: 1rem;
             }
-            .fond img{
+
+            .fond img {
                 height: 12.5rem;
             }
-            
+
             .fond h3 {
                 font-size: $small2;
                 padding-bottom: 1.5rem;
                 color: $color1
             }
-            
+
             .fond h4 {
                 font-size: $small;
                 padding-top: 1rem;
                 color: $color1;
-                
+
             }
         }
-        
+
     }
-
-
 
 }
 
+/*MAIN3 SETTINGS*/
 
+.main3 {
+    @include titles;
+    background-color: $color4;
+    padding-bottom: $med2;
 
+    .main3__p {
+        color: $color1;
+        @include sizes;
+    }
 
+    .fil {
+        .card {
+            margin-bottom: .8rem;
+            background-color: $color4;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+            .empresa {
+                height: $wh;
+                width: 80%;
+                background-color: $color3;
+                border-radius: 1rem;
+                border: 0.2rem solid $color1;
 
+                .empresas__primero {
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    color: $color1;
+                    flex-wrap: wrap;
+                }
 
+                .empresas__primero p {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: $small2;
+                }
 
+                .iconoEstrella {
+                    display: flex;
+                    flex-direction: row;
+                }
 
+                .iconoEstrella p {
+                    padding-left: 1rem;
+                }
+            }
+
+            .empresa:hover {
+                transform: scale(1.03);
+            }
+
+            .empresas__segundo {
+                display: flex;
+                flex-direction: row;
+                margin-top: 1rem;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                .centrar p {
+                    font-size: $xs;
+                    text-transform: capitalize;
+                    color: $color1;
+                    text-align: center;
+                }
+            }
+
+            .empresas__segundo img {
+                height: 3.5rem;
+                width: $wh1;
+            }
+
+        }
+    }
+}

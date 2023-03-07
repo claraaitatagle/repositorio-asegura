@@ -147,8 +147,8 @@ header .fa-lock {
 .main2 {
   height: 100%;
   width: 100%;
-  background-color: #143247;
   padding-top: 1.87rem;
+  background-color: #143247;
 }
 .main2 .main2__p h2 {
   font-size: 1.5rem;
@@ -193,6 +193,80 @@ header .fa-lock {
   font-size: 1.12rem;
   padding-top: 1rem;
   color: #143247;
+}
+
+/*MAIN3 SETTINGS*/
+.main3 {
+  height: 100%;
+  width: 100%;
+  padding-top: 1.87rem;
+  background-color: #DCE0E4;
+  padding-bottom: 2.18rem;
+}
+.main3 .main3__p {
+  color: #143247;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  padding: 1rem;
+}
+.main3 .fil .card {
+  margin-bottom: 0.8rem;
+  background-color: #DCE0E4;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main3 .fil .card .empresa {
+  height: 100%;
+  width: 80%;
+  background-color: #F9F9F9;
+  border-radius: 1rem;
+  border: 0.2rem solid #143247;
+}
+.main3 .fil .card .empresa .empresas__primero {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #143247;
+  flex-wrap: wrap;
+}
+.main3 .fil .card .empresa .empresas__primero p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.main3 .fil .card .empresa .iconoEstrella {
+  display: flex;
+  flex-direction: row;
+}
+.main3 .fil .card .empresa .iconoEstrella p {
+  padding-left: 1rem;
+}
+.main3 .fil .card .empresa:hover {
+  transform: scale(1.03);
+}
+.main3 .fil .card .empresas__segundo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main3 .fil .card .empresas__segundo .centrar p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #143247;
+  text-align: center;
+}
+.main3 .fil .card .empresas__segundo img {
+  height: 3.5rem;
+  width: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
