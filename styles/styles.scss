@@ -49,7 +49,6 @@ $wh2:50%;
 
 /*mixin*/
 @mixin sizes {
-    font-size: $small4;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -223,6 +222,7 @@ header {
     .main2__p h2 {
         @include sizes;
         color: $color3;
+        font-size: $small4;
     }
 
     .main2__contenedor2 {
@@ -276,9 +276,10 @@ header {
     background-color: $color4;
     padding-bottom: $med2;
 
-    .main3__p {
+    .main3__p h2 {
         color: $color1;
         @include sizes;
+        font-size: $small4;
     }
 
     .fil {

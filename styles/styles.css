@@ -152,7 +152,6 @@ header .fa-lock {
   background-color: #143247;
 }
 .main2 .main2__p h2 {
-  font-size: 1.37rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -160,6 +159,7 @@ header .fa-lock {
   word-spacing: 0.2rem;
   padding: 1rem;
   color: #F9F9F9;
+  font-size: 1.37rem;
 }
 .main2 .main2__contenedor2 {
   height: auto;
@@ -204,15 +204,15 @@ header .fa-lock {
   background-color: #DCE0E4;
   padding-bottom: 2.18rem;
 }
-.main3 .main3__p {
+.main3 .main3__p h2 {
   color: #143247;
-  font-size: 1.37rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
   letter-spacing: 0.1rem;
   word-spacing: 0.2rem;
   padding: 1rem;
+  font-size: 1.37rem;
 }
 .main3 .fil .card {
   margin-bottom: 0.8rem;
@@ -401,7 +401,87 @@ header .fa-lock {
     font-size: 1.37rem;
   }
 }
-
+/*segundo breakpoint md-lg*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* MEDIA PAGINA 1 INDEX */
+  /*HEADER SETTINGS*/
+  header .navbar-brand img {
+    width: auto;
+    height: 3.75rem;
+  }
+  header .navbar li a {
+    color: #F9F9F9;
+    font-size: 1.12rem;
+  }
+  /*MAIN 1 SETTINGS*/
+  .main1 .cont .cont__front__form .imagenMain1 {
+    width: 65%;
+  }
+  .main1 .cont .cont__front__form .imagenMain1 img {
+    margin-top: 2.5rem;
+    margin-bottom: 1.37rem;
+  }
+  .main1 .cont .cont__front__form .form__box {
+    width: 65%;
+    height: 20.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .main1 .cont .cont__front__form .form__box .box {
+    height: 2.5rem;
+    margin-bottom: 1.37rem;
+    font-size: 1.25rem;
+  }
+  .main1 .cont .cont__front__form .form__box .form__box__1 {
+    padding-top: 1.25rem;
+  }
+  .main1 .cont .cont__front__form .buscarBoton {
+    width: 65%;
+  }
+  .main1 .cont .cont__front__form .buscarBoton button {
+    height: 2.5rem;
+    font-size: 1.37rem;
+    margin-bottom: 1.87rem;
+  }
+  /*MAIN 2 SETTINGS*/
+  .main2 {
+    height: 100%;
+  }
+  .main2 .main2__p h2 {
+    font-size: 1.7rem;
+  }
+  .main2 .main2__contenedor2 {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+  }
+  .main2 .main2__contenedor2 .fondo {
+    padding: 0.1rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond {
+    height: 20rem;
+    width: 100%;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond img {
+    height: 9rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond h3 {
+    font-size: 1.12rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond1 {
+    border-radius: 0.8rem 0 0 0.8rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond2 {
+    border-radius: 0;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond3 {
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  /*MAIN 3 SETTINGS*/
+}
 /*      PAGINA SINIESTROS     */
 .main__sin {
   width: 100%;
@@ -418,7 +498,6 @@ header .fa-lock {
   margin: 1.87rem 2.18rem;
 }
 .main__sin .main__siniestros .main__siniestros__box form .denuncia p {
-  font-size: 1.37rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -466,23 +545,4 @@ header .fa-lock {
   background-color: #F9F9F9;
   border: solid #A74949;
   color: #A74949;
-}
-
-/*
-
-.boton__siniestro button{
-    width: 100%;
-    background-color: #A74949;
-    height: 3.5rem;
-    border: #A74949;
-    color: #F9F9F9;
-    font-size: 1.5rem;
-}
-
-.boton__siniestro button:hover{
-    background-color: #F9F9F9;
-    border: solid #A74949;
-    color: #A74949;
-}
-
-*//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
