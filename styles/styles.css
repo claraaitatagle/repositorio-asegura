@@ -351,4 +351,39 @@ header .fa-lock {
     font-size: 1.25rem;
     height: 2.5rem;
   }
+  /*MAIN 2 SETTINGS*/
+  .main2 .main2__p h2 {
+    font-size: 1.5rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond img {
+    height: 16rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond h3 {
+    font-size: 1.37rem;
+  }
+  .main2 .main2__contenedor2 .fondo .fon .fond h4 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+  /*MAIN 3 SETTINGS*/
+  .main3 {
+    height: 100%;
+  }
+  .main3 .main3__p {
+    padding: 1.87rem;
+    font-size: 1.5rem;
+  }
+  .main3 .main3_c .fil .card .empresa {
+    width: 85%;
+    margin-bottom: 0.6rem;
+  }
+  .main3 .main3_c .fil .card .empresa .empresas__primero p {
+    font-size: 1.37rem;
+  }
+  .main3 .main3_c .fil .card .empresa .empresas__segundo .centrar p {
+    font-size: 1.12rem;
+  }
+  .main3 .main3_c .fil .card .empresa .empresas__segundo img {
+    height: 4rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

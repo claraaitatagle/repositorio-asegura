@@ -53,4 +53,84 @@
 
     }
 
+    /*MAIN 2 SETTINGS*/
+
+    .main2 {
+
+        .main2__p h2 {
+            font-size: $small5;
+        }
+
+        .main2__contenedor2 {
+
+            .fondo {
+
+                .fon {
+
+                    .fond img {
+                        height: 16rem;
+                    }
+
+                    .fond h3 {
+                        font-size: $small3;
+                    }
+
+                    .fond h4 {
+                        margin-top: 1rem;
+                        font-size: $small2;
+
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    /*MAIN 3 SETTINGS*/
+
+
+    .main3 {
+        height: $wh;
+
+        .main3__p {
+            padding: $med;
+            font-size: $small5;
+        }
+
+        .main3_c {
+            .fil {
+
+                .card {
+
+                    .empresa {
+                        width: 85%;
+                        margin-bottom: .6rem;
+
+                        .empresas__primero p {
+                            font-size: $small3;
+                        }
+
+                        .empresas__segundo {
+
+                            .centrar p {
+                                font-size: $small;
+                            }
+                        }
+    
+                        .empresas__segundo img {
+                            height: 4rem;
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+
 }
