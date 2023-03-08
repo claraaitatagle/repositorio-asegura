@@ -132,5 +132,26 @@
 
     }
 
+    /*FOOTER SETTINGS*/
 
+.foot {
+    
+    .caja1 {
+        width: $wh2;
+    }
+
+    .caja1 i {
+        font-size: $small5;
+        padding-left: $small;
+    }
+
+    .caja1 img {
+        height: 8rem;
+    }
+
+    a .fa-google {
+        font-size: $small3;
+    }
+
+}
 }

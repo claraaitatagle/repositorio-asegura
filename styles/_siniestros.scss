@@ -1,0 +1,86 @@
+/*      PAGINA SINIESTROS     */
+
+.main__sin {
+    width: $wh;
+    height: $wh1;
+
+    .main__siniestros {
+        width: $wh;
+
+        .main__siniestros__box {
+            background-color: $color1;
+            height: fit-content;
+            border-radius: .8rem;
+            margin: $med $med2;
+
+            form {
+                .denuncia p {
+                    @include sizes;
+                    color: $color3;
+                }
+
+                .formulario {
+                    margin-left: 1%;
+                    .formulario__row {
+                        display: flex;
+                        margin: 0 auto ;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: $small;
+                        width: $wh;
+                    }
+                    .itm{
+                        background-color: $color3;
+                        height: $med;
+                        border-radius: .5rem;
+                        color:$color1;
+                        font-size: $xs;
+                        margin-bottom: .8rem;
+                        padding-top: .1rem;
+                        margin-right: 1rem;
+                    }
+                    .itm1{
+                        width: 90%;
+                    }
+                    
+                    .itm2{
+                        width: 90%;
+                    }
+                }
+                .boton__siniestro button{
+                    width: $wh;
+                    background-color: $color2;
+                    height: $med3;
+                    border: $color2;
+                    color: $color3;
+                    font-size: $small;
+                }
+                
+                .boton__siniestro button:hover{
+                    background-color: $color3;
+                    border: solid $color2;
+                    color: $color2;
+                }
+            }
+        }
+    }
+}
+
+/*
+
+.boton__siniestro button{
+    width: 100%;
+    background-color: #A74949;
+    height: 3.5rem;
+    border: #A74949;
+    color: #F9F9F9;
+    font-size: 1.5rem;
+}
+
+.boton__siniestro button:hover{
+    background-color: #F9F9F9;
+    border: solid #A74949;
+    color: #A74949;
+}
+
+*/

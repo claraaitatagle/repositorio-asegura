@@ -152,7 +152,7 @@ header .fa-lock {
   background-color: #143247;
 }
 .main2 .main2__p h2 {
-  font-size: 1.5rem;
+  font-size: 1.37rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -206,7 +206,7 @@ header .fa-lock {
 }
 .main3 .main3__p {
   color: #143247;
-  font-size: 1.5rem;
+  font-size: 1.37rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -386,4 +386,102 @@ header .fa-lock {
   .main3 .main3_c .fil .card .empresa .empresas__segundo img {
     height: 4rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+  /*FOOTER SETTINGS*/
+  .foot .caja1 {
+    width: 50%;
+  }
+  .foot .caja1 i {
+    font-size: 1.5rem;
+    padding-left: 1.12rem;
+  }
+  .foot .caja1 img {
+    height: 8rem;
+  }
+  .foot a .fa-google {
+    font-size: 1.37rem;
+  }
+}
+/*      PAGINA SINIESTROS     */
+.main__sin {
+  width: 100%;
+  height: auto;
+}
+.main__sin .main__siniestros {
+  width: 100%;
+}
+.main__sin .main__siniestros .main__siniestros__box {
+  background-color: #143247;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0.8rem;
+  margin: 1.87rem 2.18rem;
+}
+.main__sin .main__siniestros .main__siniestros__box form .denuncia p {
+  font-size: 1.37rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  padding: 1rem;
+  color: #F9F9F9;
+}
+.main__sin .main__siniestros .main__siniestros__box form .formulario {
+  margin-left: 1%;
+}
+.main__sin .main__siniestros .main__siniestros__box form .formulario .formulario__row {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.12rem;
+  width: 100%;
+}
+.main__sin .main__siniestros .main__siniestros__box form .formulario .itm {
+  background-color: #F9F9F9;
+  height: 1.87rem;
+  border-radius: 0.5rem;
+  color: #143247;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  padding-top: 0.1rem;
+  margin-right: 1rem;
+}
+.main__sin .main__siniestros .main__siniestros__box form .formulario .itm1 {
+  width: 90%;
+}
+.main__sin .main__siniestros .main__siniestros__box form .formulario .itm2 {
+  width: 90%;
+}
+.main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+  width: 100%;
+  background-color: #A74949;
+  height: 2.5rem;
+  border: #A74949;
+  color: #F9F9F9;
+  font-size: 1.12rem;
+}
+.main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button:hover {
+  background-color: #F9F9F9;
+  border: solid #A74949;
+  color: #A74949;
+}
+
+/*
+
+.boton__siniestro button{
+    width: 100%;
+    background-color: #A74949;
+    height: 3.5rem;
+    border: #A74949;
+    color: #F9F9F9;
+    font-size: 1.5rem;
+}
+
+.boton__siniestro button:hover{
+    background-color: #F9F9F9;
+    border: solid #A74949;
+    color: #A74949;
+}
+
+*//*# sourceMappingURL=styles.css.map */
