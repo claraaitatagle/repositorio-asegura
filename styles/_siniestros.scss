@@ -11,19 +11,19 @@
             background-color: $color1;
             height: fit-content;
             border-radius: .8rem;
-            margin: $med $med2;
+            margin: $med;
 
             form {
-                .denuncia p {
+                .denuncia h2 {
                     @include sizes;
                     color: $color3;
+                    font-size: $small4;
                 }
 
                 .formulario {
-                    margin-left: 1%;
                     .formulario__row {
                         display: flex;
-                        margin: 0 auto ;
+                        margin: 0  ;
                         align-items: center;
                         justify-content: center;
                         margin-bottom: $small;
@@ -37,7 +37,9 @@
                         font-size: $xs;
                         margin-bottom: .8rem;
                         padding-top: .1rem;
-                        margin-right: 1rem;
+                        margin-right: .5rem;
+
+                        
                     }
                     .itm1{
                         width: 90%;

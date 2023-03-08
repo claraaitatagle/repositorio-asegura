@@ -1,3 +1,11 @@
+@mixin titles2 {
+    font-weight: 600;
+    letter-spacing: .15rem;
+    word-spacing: .2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
 /*      MEDIA QUERIES    */
 
 /*primer breakpoint sm-md*/
@@ -378,17 +386,65 @@
         }
 
     }
+
+        /*MEDIA PAGINA 3 SINIESTROS */
+
+        .main__sin {
+
+            .main__siniestros {
+    
+                .main__siniestros__box {
+    
+                    form {
+                        .denuncia {
+                            .denuncia h2 {
+                                @include titles2;
+                                color: $color2;
+                                font-size: 1.8rem;
+                            }
+    
+                            .formulario {
+                                .itm {
+                                    padding-top: .2rem;
+                                    height: $med2;
+                                    font-size: $small;
+                                }
+    
+                                .itm1 {
+                                    width: 40%;
+                                }
+    
+                                .itm2 {
+                                    width: 40%;
+                                }
+                            }
+    
+                        }
+    
+                        .boton__siniestro button {
+                            height: $med3;
+                            font-size: $small3;
+                        }
+    
+                    }
+                }
+    
+    
+            }
+        }
 }
 
 
 /*tercer breakpoint lg-xl-*/
 @media only screen and (min-width:992px) and (max-width:1100px) {
+
     /* MEDIA PAGINA 1 INDEX */
     /*HEADER*/
-    body{
+    body {
         margin: 0;
         padding: 0;
     }
+
     header {
         .navbar-brand img {
             height: $large2;
@@ -407,6 +463,7 @@
         }
 
     }
+
     .navbar-toggler {
         display: none;
     }
@@ -517,11 +574,7 @@
         padding-bottom: $med3;
 
         .main2__p h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            letter-spacing: .15rem;
-            word-spacing: .2rem;
-            margin-bottom: 1.5rem;
+            @include titles2;
         }
 
         .main2__contenedor2 {
@@ -577,11 +630,8 @@
         height: $wh;
 
         .main3__p h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            letter-spacing: .15rem;
-            word-spacing: .2rem;
-            margin-bottom: 1.5rem;
+            @include titles2;
+
         }
 
         .fil {
@@ -613,84 +663,135 @@
         }
     }
 
-        /*FOOTER SETTINGS*/
-        .foot {
+    /*FOOTER SETTINGS*/
+    .foot {
+        display: flex;
+        flex-direction: row;
+        padding: .8rem 0;
+        padding-left: .8rem;
+
+        .caja1 {
+            width: 30%;
+            border-radius: .3rem;
+        }
+
+        .caja1 i {
+            font-size: $small5;
+            padding-left: $small2;
+            letter-spacing: .2rem;
+        }
+
+        .caja1 img {
+            height: 8rem;
+            margin-bottom: .5rem;
+        }
+
+        a .fa-google {
+            font-size: $small4;
+        }
+
+        .caja2 {
+            height: $wh;
+            width: 70%;
+            background-color: $color1;
             display: flex;
             flex-direction: row;
-            padding: .8rem 0;
-            padding-left: .8rem;
-    
-            .caja1 {
-                width: 30%;
-                border-radius: .3rem;
-            }
-    
-            .caja1 i {
-                font-size: $small5;
-                padding-left: $small2;
-                letter-spacing: .2rem;
-            }
-    
-            .caja1 img {
-                height: 8rem;
-                margin-bottom: .5rem;
-            }
-    
-            a .fa-google {
-                font-size: $small4;
-            }
-    
-            .caja2 {
-                height: $wh;
-                width: 70%;
-                background-color: $color1;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                visibility: visible;
-    
-                .subboxaP p {
-                    color: $color3;
-                    font-size: $small3;
-                    text-transform: capitalize;
-                    margin-top: .1rem;
-                    padding-bottom: .5rem;
-                    font-weight: 500;
-                }
-    
-            }
-    
-            .caja2 li {
-                list-style: none;
-                padding-bottom: .2rem;
-                padding-right: 3rem;
-            }
-    
-            .caja2 li a {
-                text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            visibility: visible;
+
+            .subboxaP p {
                 color: $color3;
-                font-size: $xs;
-                list-style: none;
+                font-size: $small3;
+                text-transform: capitalize;
+                margin-top: .1rem;
+                padding-bottom: .5rem;
+                font-weight: 500;
             }
-    
-            .caja2 li a:hover {
-                color: $color2;
-                transition: all .3s;
-            }
-    
+
         }
+
+        .caja2 li {
+            list-style: none;
+            padding-bottom: .2rem;
+            padding-right: 3rem;
+        }
+
+        .caja2 li a {
+            text-decoration: none;
+            color: $color3;
+            font-size: $xs;
+            list-style: none;
+        }
+
+        .caja2 li a:hover {
+            color: $color2;
+            transition: all .3s;
+        }
+
+    }
+
+    /*MEDIA PAGINA 3 SINIESTROS */
+
+    .main__sin {
+
+        .main__siniestros {
+
+            .main__siniestros__box {
+
+                form {
+                    .denuncia {
+                        .denuncia h2 {
+                            @include titles2;
+                            color: $color2;
+                            font-size: 1.8rem;
+                        }
+
+                        .formulario {
+                            .itm {
+                                padding-top: .2rem;
+                                height: $med2;
+                                font-size: $small;
+                            }
+
+                            .itm1 {
+                                width: 31%;
+                            }
+
+                            .itm2 {
+                                width: 24%;
+                            }
+                        }
+
+                    }
+
+                    .boton__siniestro button {
+                        height: $med3;
+                        font-size: $small3;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+
+
 
 }
 
 /*cuarto breakpoint xl-xxl-*/
 @media only screen and (min-width:1100px) {
+
     /* MEDIA PAGINA 1 INDEX */
     /*HEADER*/
-    body{
+    body {
         margin: 0;
         padding: 0;
     }
+
     header {
         .navbar-brand img {
             height: $large2;
@@ -701,7 +802,7 @@
             color: $color3;
             font-size: $small;
             padding-bottom: 1rem;
-            
+
         }
 
 
@@ -826,11 +927,7 @@
         padding-bottom: $med3;
 
         .main2__p h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            letter-spacing: .15rem;
-            word-spacing: .2rem;
-            margin-bottom: 1.5rem;
+            @include titles2;
         }
 
         .main2__contenedor2 {
@@ -886,11 +983,7 @@
         height: $wh;
 
         .main3__p h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            letter-spacing: .15rem;
-            word-spacing: .2rem;
-            margin-bottom: 1.5rem;
+            @include titles2;
         }
 
         .fil {
@@ -922,72 +1015,121 @@
         }
     }
 
-        /*FOOTER SETTINGS*/
-        .foot {
+    /*FOOTER SETTINGS*/
+    .foot {
+        display: flex;
+        flex-direction: row;
+        padding: .8rem 0;
+        padding-left: .8rem;
+
+        .caja1 {
+            width: 30%;
+            border-radius: .3rem;
+        }
+
+        .caja1 i {
+            font-size: $small5;
+            padding-left: $small2;
+            letter-spacing: .2rem;
+        }
+
+        .caja1 img {
+            height: 8rem;
+            margin-bottom: .5rem;
+        }
+
+        a .fa-google {
+            font-size: $small4;
+        }
+
+        .caja2 {
+            height: $wh;
+            width: 70%;
+            background-color: $color1;
             display: flex;
             flex-direction: row;
-            padding: .8rem 0;
-            padding-left: .8rem;
-    
-            .caja1 {
-                width: 30%;
-                border-radius: .3rem;
-            }
-    
-            .caja1 i {
-                font-size: $small5;
-                padding-left: $small2;
-                letter-spacing: .2rem;
-            }
-    
-            .caja1 img {
-                height: 8rem;
-                margin-bottom: .5rem;
-            }
-    
-            a .fa-google {
-                font-size: $small4;
-            }
-    
-            .caja2 {
-                height: $wh;
-                width: 70%;
-                background-color: $color1;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                visibility: visible;
-    
-                .subboxaP p {
-                    color: $color3;
-                    font-size: $small3;
-                    text-transform: capitalize;
-                    margin-top: .1rem;
-                    padding-bottom: .5rem;
-                    font-weight: 500;
-                }
-    
-            }
-    
-            .caja2 li {
-                list-style: none;
-                padding-bottom: .2rem;
-                padding-right: 10rem;
-            }
-    
-            .caja2 li a {
-                text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            visibility: visible;
+
+            .subboxaP p {
                 color: $color3;
-                font-size: $xs;
-                list-style: none;
+                font-size: $small3;
+                text-transform: capitalize;
+                margin-top: .1rem;
+                padding-bottom: .5rem;
+                font-weight: 500;
             }
-    
-            .caja2 li a:hover {
-                color: $color2;
-                transition: all .3s;
-            }
-    
+
         }
+
+        .caja2 li {
+            list-style: none;
+            padding-bottom: .2rem;
+            padding-right: 10rem;
+        }
+
+        .caja2 li a {
+            text-decoration: none;
+            color: $color3;
+            font-size: $xs;
+            list-style: none;
+        }
+
+        .caja2 li a:hover {
+            color: $color2;
+            transition: all .3s;
+        }
+
+    }
+
+    
+    /*MEDIA PAGINA 3 SINIESTROS */
+
+    .main__sin {
+
+        .main__siniestros {
+
+            .main__siniestros__box {
+                
+                form {
+
+                    .denuncia {
+                        .denuncia h2 {
+                            @include titles2;
+                            color: $color2;
+                            font-size: 1.8rem;
+                        }
+
+                        .formulario {
+                            .itm {
+                                padding-top: .2rem;
+                                height: $med2;
+                                font-size: $small;
+                                margin-top: 1rem;
+                            }
+
+                            .itm1 {
+                                width: 31%;
+                            }
+
+                            .itm2 {
+                                width: 24%;
+                            }
+                        }
+
+                    }
+
+                    .boton__siniestro button {
+                        height: $med3;
+                        font-size: $small3;
+                    }
+
+                }
+            }
+
+
+        }
+    }
 
 }

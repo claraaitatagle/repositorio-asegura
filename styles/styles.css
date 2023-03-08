@@ -556,6 +556,31 @@ header .fa-lock {
     color: #A74949;
     transition: all 0.3s;
   }
+  /*MEDIA PAGINA 3 SINIESTROS */
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #A74949;
+    font-size: 1.8rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
+    padding-top: 0.2rem;
+    height: 2.18rem;
+    font-size: 1.12rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm1 {
+    width: 40%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm2 {
+    width: 40%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+    height: 2.5rem;
+    font-size: 1.37rem;
+  }
 }
 /*tercer breakpoint lg-xl-*/
 @media only screen and (min-width: 992px) and (max-width: 1100px) {
@@ -664,11 +689,11 @@ header .fa-lock {
     padding-bottom: 2.5rem;
   }
   .main2 .main2__p h2 {
-    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
+    font-size: 1.8rem;
   }
   .main2 .main2__contenedor2 {
     height: -moz-fit-content;
@@ -706,11 +731,11 @@ header .fa-lock {
     height: 100%;
   }
   .main3 .main3__p h2 {
-    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
+    font-size: 1.8rem;
   }
   .main3 .fil .card .empresa {
     width: 100%;
@@ -780,6 +805,31 @@ header .fa-lock {
   .foot .caja2 li a:hover {
     color: #A74949;
     transition: all 0.3s;
+  }
+  /*MEDIA PAGINA 3 SINIESTROS */
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #A74949;
+    font-size: 1.8rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
+    padding-top: 0.2rem;
+    height: 2.18rem;
+    font-size: 1.12rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm1 {
+    width: 31%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm2 {
+    width: 24%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+    height: 2.5rem;
+    font-size: 1.37rem;
   }
 }
 /*cuarto breakpoint xl-xxl-*/
@@ -892,11 +942,11 @@ header .fa-lock {
     padding-bottom: 2.5rem;
   }
   .main2 .main2__p h2 {
-    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
+    font-size: 1.8rem;
   }
   .main2 .main2__contenedor2 {
     height: -moz-fit-content;
@@ -934,11 +984,11 @@ header .fa-lock {
     height: 100%;
   }
   .main3 .main3__p h2 {
-    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
+    font-size: 1.8rem;
   }
   .main3 .fil .card .empresa {
     width: 100%;
@@ -1009,6 +1059,32 @@ header .fa-lock {
     color: #A74949;
     transition: all 0.3s;
   }
+  /*MEDIA PAGINA 3 SINIESTROS */
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #A74949;
+    font-size: 1.8rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
+    padding-top: 0.2rem;
+    height: 2.18rem;
+    font-size: 1.12rem;
+    margin-top: 1rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm1 {
+    width: 31%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm2 {
+    width: 24%;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+    height: 2.5rem;
+    font-size: 1.37rem;
+  }
 }
 /*      PAGINA SINIESTROS     */
 .main__sin {
@@ -1023,9 +1099,9 @@ header .fa-lock {
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 0.8rem;
-  margin: 1.87rem 2.18rem;
+  margin: 1.87rem;
 }
-.main__sin .main__siniestros .main__siniestros__box form .denuncia p {
+.main__sin .main__siniestros .main__siniestros__box form .denuncia h2 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -1033,13 +1109,11 @@ header .fa-lock {
   word-spacing: 0.2rem;
   padding: 1rem;
   color: #F9F9F9;
-}
-.main__sin .main__siniestros .main__siniestros__box form .formulario {
-  margin-left: 1%;
+  font-size: 1.37rem;
 }
 .main__sin .main__siniestros .main__siniestros__box form .formulario .formulario__row {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.12rem;
@@ -1053,7 +1127,7 @@ header .fa-lock {
   font-size: 1rem;
   margin-bottom: 0.8rem;
   padding-top: 0.1rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .main__sin .main__siniestros .main__siniestros__box form .formulario .itm1 {
   width: 90%;

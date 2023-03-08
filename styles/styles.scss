@@ -63,6 +63,7 @@ $wh2:50%;
     padding-top: $med;
 }
 
+
 /*GENERAL SETTINGS*/
 
 * {
@@ -103,7 +104,7 @@ header {
     }
 
     .nav-item {
-    padding-left: 2rem;
+        padding-left: 2rem;
 
 
         .dropdown-menu {
@@ -352,7 +353,7 @@ header {
 }
 
 /*FOOTER SETTINGS*/
-.foot{
+.foot {
     width: $wh;
     height: fit-content;
     background-color: $color1;
@@ -360,7 +361,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: $small 0;
-    .caja1{
+
+    .caja1 {
         border-radius: .8rem;
         margin-top: .2rem;
         height: fit-content;
@@ -370,28 +372,32 @@ header {
         justify-content: center;
         background-color: $color3;
     }
-    .caja1 i{
+
+    .caja1 i {
         font-size: $small2;
         color: $color1;
         letter-spacing: .5rem;
         padding-left: .8rem;
     }
-    .caja1 i:hover{
+
+    .caja1 i:hover {
         color: $color2;
         transition: all .3s;
     }
-    .caja1 img{
+
+    .caja1 img {
         margin: 2rem 0 0rem 0;
         height: 6rem;
         width: $wh1;
     }
-    a .fa-google{
+
+    a .fa-google {
         font-size: $small;
     }
-    
-.caja2{
-    display: none;
-}
+
+    .caja2 {
+        display: none;
+    }
 }
 
 
