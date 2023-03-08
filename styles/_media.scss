@@ -218,10 +218,11 @@
         }
     }
 
-    
+
     /*MAIN 2 SETTINGS*/
     .main2 {
         height: $wh;
+
         .main2__p h2 {
             font-size: 1.7rem;
         }
@@ -229,15 +230,18 @@
         .main2__contenedor2 {
             height: fit-content;
             width: $wh;
+
             .fondo {
                 padding: 0.1rem;
+
                 .fon {
 
-                    .fond{
+                    .fond {
                         height: 20rem;
                         width: $wh;
 
                     }
+
                     .fond img {
                         height: 9rem;
                     }
@@ -251,16 +255,16 @@
                         text-align: center;
                     }
 
-                    .fond1{
+                    .fond1 {
                         border-radius: .8rem 0 0 .8rem;
                     }
-                    
-                    .fond2{
+
+                    .fond2 {
                         border-radius: 0;
                     }
-                    
-                    .fond3{
-                    border-radius: 0 .8rem .8rem 0;
+
+                    .fond3 {
+                        border-radius: 0 .8rem .8rem 0;
                     }
 
                 }
@@ -271,5 +275,719 @@
     }
 
     /*MAIN 3 SETTINGS*/
+    .main3 {
+        height: $wh;
+
+        .main3__p h2 {
+            font-size: 1.7rem;
+        }
+
+        .fil {
+            .card {
+
+                .empresa {
+                    width: $wh;
+                    margin-bottom: $med;
+
+                    .empresas__primero p {
+                        font-size: $small2;
+                    }
+
+                }
+
+
+                .empresas__segundo {
+
+                    .centrar p {
+                        font-size: $small;
+                    }
+                }
+
+                .empresas__segundo img {
+                    height: 4rem;
+                }
+
+            }
+        }
+    }
+
+    /*FOOTER SETTINGS*/
+    .foot {
+        display: flex;
+        flex-direction: row;
+        padding: .8rem 0;
+        padding-left: .8rem;
+
+        .caja1 {
+            width: 30%;
+            border-radius: .3rem;
+        }
+
+        .caja1 i {
+            font-size: $small5;
+            padding-left: $small2;
+            letter-spacing: .2rem;
+        }
+
+        .caja1 img {
+            height: 8rem;
+            margin-bottom: .5rem;
+        }
+
+        a .fa-google {
+            font-size: $small4;
+        }
+
+        .caja2 {
+            height: $wh;
+            width: 70%;
+            background-color: $color1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            visibility: visible;
+
+            .subboxaP p {
+                color: $color3;
+                font-size: $small;
+                text-transform: capitalize;
+                margin-top: .1rem;
+                padding-bottom: .5rem;
+                font-weight: 500;
+            }
+
+        }
+
+        .caja2 li {
+            list-style: none;
+            padding-bottom: .2rem;
+            padding-right: 3rem;
+        }
+
+        .caja2 li a {
+            text-decoration: none;
+            color: $color3;
+            font-size: $xs;
+            list-style: none;
+        }
+
+        .caja2 li a:hover {
+            color: $color2;
+            transition: all .3s;
+        }
+
+    }
+}
+
+
+/*tercer breakpoint lg-xl-*/
+@media only screen and (min-width:992px) and (max-width:1100px) {
+    /* MEDIA PAGINA 1 INDEX */
+    /*HEADER*/
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        .navbar-brand img {
+            height: $large2;
+            width: $wh1;
+        }
+
+        .navbar li a {
+            color: $color3;
+            font-size: $small;
+            padding-bottom: 1rem;
+        }
+
+
+        .dropdown-menu {
+            width: 12rem;
+        }
+
+    }
+    .navbar-toggler {
+        display: none;
+    }
+
+    .fa-cart-shopping,
+    .fa-circle-user,
+    .fa-lock {
+        display: none;
+    }
+
+
+
+    /*MAIN 1 SETTINGS*/
+    .main1 {
+
+        .cont {
+            display: flex;
+            flex-direction: row;
+
+            .cont__front__form {
+                .imagenMain1 {
+                    width: 80%;
+                }
+
+                .imagenMain1 img {
+                    margin-top: $med;
+                    margin-bottom: $small2;
+                }
+
+                .form__box {
+                    width: 80%;
+                    border-radius: .8rem;
+                    height: 21.25rem;
+
+                    .form__box__1 {
+                        padding-top: $med;
+                        width: 92%;
+                    }
+
+                    .box {
+                        width: $wh;
+                        height: $med2;
+                        border-radius: .6rem;
+                        padding-top: .2rem;
+                        font-size: $small2;
+                        height: $med3;
+                        margin-bottom: $small3;
+                        font-size: $small2;
+                    }
+
+                }
+
+                .buscarBoton {
+                    width: 80%;
+                }
+
+                .buscarBoton button {
+                    border-radius: .8rem;
+                    height: $med2;
+                    font-size: $small3;
+                    font-weight: 500;
+                    margin-top: $small2;
+                    padding-bottom: 0.1rem;
+                    height: $med3;
+                    font-size: $small3;
+                    margin-bottom: $med;
+                }
+            }
+        }
+
+        .cont__front__p {
+            display: block;
+            margin-top: $med3;
+            color: $color2;
+            text-transform: uppercase;
+            text-align: center;
+            width: 55%;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            /*animacion*/
+            text-shadow: $color2 .5rem;
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-delay: 6s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .cont__front__p h2 {
+            font-size: $small5;
+        }
+
+    }
+
+    /*MAIN 2 SETTINGS*/
+    .main2 {
+        padding-bottom: $med3;
+
+        .main2__p h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .main2__contenedor2 {
+            height: fit-content;
+            width: $wh;
+
+            .fondo {
+                padding: 0.1rem;
+
+                .fon {
+
+                    .fond {
+                        height: auto;
+                        width: $wh;
+
+                    }
+
+                    .fond img {
+                        height: 9rem;
+                    }
+
+                    .fond h3 {
+                        font-size: $small2;
+                    }
+
+                    .fond h4 {
+                        font-size: $small;
+                        text-align: center;
+                    }
+
+                    .fond1 {
+                        border-radius: .8rem 0 0 .8rem;
+                    }
+
+                    .fond2 {
+                        border-radius: 0;
+                    }
+
+                    .fond3 {
+                        border-radius: 0 .8rem .8rem 0;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+
+    /*MAIN 3 SETTINGS*/
+    .main3 {
+        height: $wh;
+
+        .main3__p h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .fil {
+            .card {
+
+                .empresa {
+                    width: $wh;
+                    margin-bottom: $med;
+
+                    .empresas__primero p {
+                        font-size: $small;
+                    }
+
+                }
+
+
+                .empresas__segundo {
+
+                    .centrar p {
+                        font-size: $xs;
+                    }
+                }
+
+                .empresas__segundo img {
+                    height: 3rem;
+                }
+
+            }
+        }
+    }
+
+        /*FOOTER SETTINGS*/
+        .foot {
+            display: flex;
+            flex-direction: row;
+            padding: .8rem 0;
+            padding-left: .8rem;
+    
+            .caja1 {
+                width: 30%;
+                border-radius: .3rem;
+            }
+    
+            .caja1 i {
+                font-size: $small5;
+                padding-left: $small2;
+                letter-spacing: .2rem;
+            }
+    
+            .caja1 img {
+                height: 8rem;
+                margin-bottom: .5rem;
+            }
+    
+            a .fa-google {
+                font-size: $small4;
+            }
+    
+            .caja2 {
+                height: $wh;
+                width: 70%;
+                background-color: $color1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                visibility: visible;
+    
+                .subboxaP p {
+                    color: $color3;
+                    font-size: $small3;
+                    text-transform: capitalize;
+                    margin-top: .1rem;
+                    padding-bottom: .5rem;
+                    font-weight: 500;
+                }
+    
+            }
+    
+            .caja2 li {
+                list-style: none;
+                padding-bottom: .2rem;
+                padding-right: 3rem;
+            }
+    
+            .caja2 li a {
+                text-decoration: none;
+                color: $color3;
+                font-size: $xs;
+                list-style: none;
+            }
+    
+            .caja2 li a:hover {
+                color: $color2;
+                transition: all .3s;
+            }
+    
+        }
+
+}
+
+/*cuarto breakpoint xl-xxl-*/
+@media only screen and (min-width:1100px) {
+    /* MEDIA PAGINA 1 INDEX */
+    /*HEADER*/
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        .navbar-brand img {
+            height: $large2;
+            width: $wh1;
+        }
+
+        .navbar li a {
+            color: $color3;
+            font-size: $small;
+            padding-bottom: 1rem;
+            
+        }
+
+
+        .dropdown-menu {
+            width: 12rem;
+        }
+
+    }
+
+    .nav-item {
+        .fa-cart-shopping {
+            color: $color3;
+            margin-left: 5rem;
+        }
+
+        .fa-cart-shopping,
+        .fa-circle-user,
+        .fa-lock {
+            display: block;
+            font-size: $small;
+        }
+    }
+
+
+
+    /*MAIN 1 SETTINGS*/
+    .main1 {
+
+        .cont {
+            display: flex;
+            flex-direction: row;
+
+            .cont__front__form {
+                .imagenMain1 {
+                    width: 80%;
+                }
+
+                .imagenMain1 img {
+                    margin-top: $med;
+                    margin-bottom: $small2;
+                }
+
+                .form__box {
+                    width: 80%;
+                    border-radius: .8rem;
+                    height: 21.25rem;
+
+                    .form__box__1 {
+                        padding-top: $med;
+                        width: 92%;
+                    }
+
+                    .box {
+                        width: $wh;
+                        height: $med2;
+                        border-radius: .6rem;
+                        padding-top: .2rem;
+                        font-size: $small2;
+                        height: $med3;
+                        margin-bottom: $small3;
+                        font-size: $small2;
+                    }
+
+                }
+
+                .buscarBoton {
+                    width: 80%;
+                }
+
+                .buscarBoton button {
+                    border-radius: .8rem;
+                    height: $med2;
+                    font-size: $small3;
+                    font-weight: 500;
+                    margin-top: $small2;
+                    padding-bottom: 0.1rem;
+                    height: $med3;
+                    font-size: $small3;
+                    margin-bottom: $med;
+                }
+            }
+        }
+
+        .cont__front__p {
+            display: block;
+            margin-top: $large2;
+            margin-right: $med2;
+            color: $color2;
+            text-transform: uppercase;
+            text-align: center;
+            width: 55%;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            /*animacion*/
+            text-shadow: $color2 .5rem;
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-delay: 6s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .cont__front__p h2 {
+            font-size: $small5;
+        }
+
+    }
+
+    /*MAIN 2 SETTINGS*/
+    .main2 {
+        padding-bottom: $med3;
+
+        .main2__p h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .main2__contenedor2 {
+            height: fit-content;
+            width: $wh;
+
+            .fondo {
+                padding: 0.1rem;
+
+                .fon {
+
+                    .fond {
+                        height: auto;
+                        width: $wh;
+
+                    }
+
+                    .fond img {
+                        height: 12rem;
+                    }
+
+                    .fond h3 {
+                        font-size: $small2;
+                    }
+
+                    .fond h4 {
+                        font-size: $small;
+                        text-align: center;
+                    }
+
+                    .fond1 {
+                        border-radius: .8rem 0 0 .8rem;
+                    }
+
+                    .fond2 {
+                        border-radius: 0;
+                    }
+
+                    .fond3 {
+                        border-radius: 0 .8rem .8rem 0;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+
+    /*MAIN 3 SETTINGS*/
+    .main3 {
+        height: $wh;
+
+        .main3__p h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .15rem;
+            word-spacing: .2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .fil {
+            .card {
+
+                .empresa {
+                    width: $wh;
+                    margin-bottom: $med;
+
+                    .empresas__primero p {
+                        font-size: $small4;
+                    }
+
+                }
+
+
+                .empresas__segundo {
+
+                    .centrar p {
+                        font-size: $small3;
+                    }
+                }
+
+                .empresas__segundo img {
+                    height: 4rem;
+                }
+
+            }
+        }
+    }
+
+        /*FOOTER SETTINGS*/
+        .foot {
+            display: flex;
+            flex-direction: row;
+            padding: .8rem 0;
+            padding-left: .8rem;
+    
+            .caja1 {
+                width: 30%;
+                border-radius: .3rem;
+            }
+    
+            .caja1 i {
+                font-size: $small5;
+                padding-left: $small2;
+                letter-spacing: .2rem;
+            }
+    
+            .caja1 img {
+                height: 8rem;
+                margin-bottom: .5rem;
+            }
+    
+            a .fa-google {
+                font-size: $small4;
+            }
+    
+            .caja2 {
+                height: $wh;
+                width: 70%;
+                background-color: $color1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                visibility: visible;
+    
+                .subboxaP p {
+                    color: $color3;
+                    font-size: $small3;
+                    text-transform: capitalize;
+                    margin-top: .1rem;
+                    padding-bottom: .5rem;
+                    font-weight: 500;
+                }
+    
+            }
+    
+            .caja2 li {
+                list-style: none;
+                padding-bottom: .2rem;
+                padding-right: 10rem;
+            }
+    
+            .caja2 li a {
+                text-decoration: none;
+                color: $color3;
+                font-size: $xs;
+                list-style: none;
+            }
+    
+            .caja2 li a:hover {
+                color: $color2;
+                transition: all .3s;
+            }
+    
+        }
 
 }
