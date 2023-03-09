@@ -87,6 +87,7 @@
     height: fit-content;
     margin: 0 $med;
     border-radius: .8rem;
+    margin-bottom: 2rem;
 
     .seguros2__categoria {
         display: flex;
@@ -158,22 +159,48 @@
     }
 
     .aseguradoras{
+        margin-bottom: 2rem;
         .titulo h2{
             @include sizes;
             color: $color1;
             font-size: $small4;
-            margin-bottom: 3rem;
-            padding-top: 3rem; 
+            margin-bottom: 1rem;
+            margin-top: 1rem; 
         }
 
         .aseguradoras__box{
-            .cardEmpresa{
-                width: $wh;
-                height: fit-content;
-                background-color: #143247;
-                border-radius: 1.5rem;
-                margin-top: 5rem;
-                color: #F9F9F9;
+            .aseguradoras_{
+                .cardEmpresa{
+                    width: 80%;
+                    margin-left: 10%;
+                    height: fit-content;
+                    background-color: $color1;
+                    border-radius: .8rem;
+                    margin-top: $small;
+                    color: $color3;
+                    padding-bottom: .2rem;
+                }
+                .nombreEmpresa{
+                    padding: $xs $xs .5rem $med;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                .nombreEmpresa p{
+                    text-transform: uppercase;
+                    font-size: $small;
+                }
+                .ubic{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .direccion{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 1rem 2rem 2rem 2rem;
+                        justify-content: center;
+                    }
+                }
             }
             
         }

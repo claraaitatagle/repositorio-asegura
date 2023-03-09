@@ -503,7 +503,28 @@
                 }
             }
         }
+
+        .aseguradoras__box{
+            .aseguradoras_{
+                .cardEmpresa{
+                    width: 50%;
+                    margin-left: 50%;
+    
+                }
+                .nombreEmpresa p{
+                    font-size: $small;
+                }
+                .ubic{
+                    .direccion{
+                        padding: 1rem 2rem 2rem 2rem;
+                    }
+                }
+            }
+            
+        }
     }
+
+
 }
 
 

@@ -453,6 +453,7 @@ header .fa-lock {
   height: fit-content;
   margin: 0 1.87rem;
   border-radius: 0.8rem;
+  margin-bottom: 2rem;
 }
 .main__seguros2 .seguros2__categoria {
   display: flex;
@@ -535,6 +536,9 @@ header .fa-lock {
   color: #143247;
   font-size: 1.37rem;
 }
+.main__seguros2 .aseguradoras {
+  margin-bottom: 2rem;
+}
 .main__seguros2 .aseguradoras .titulo h2 {
   text-transform: uppercase;
   text-align: center;
@@ -544,17 +548,40 @@ header .fa-lock {
   padding: 1rem;
   color: #143247;
   font-size: 1.37rem;
-  margin-bottom: 3rem;
-  padding-top: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
-.main__seguros2 .aseguradoras .aseguradoras__box .cardEmpresa {
-  width: 100%;
+.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .cardEmpresa {
+  width: 80%;
+  margin-left: 10%;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #143247;
-  border-radius: 1.5rem;
-  margin-top: 5rem;
+  border-radius: 0.8rem;
+  margin-top: 1.12rem;
   color: #F9F9F9;
+  padding-bottom: 0.2rem;
+}
+.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa {
+  padding: 1rem 1rem 0.5rem 1.87rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa p {
+  text-transform: uppercase;
+  font-size: 1.12rem;
+}
+.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem 2rem 2rem;
+  justify-content: center;
 }
 
 /*      MEDIA QUERIES    */
@@ -853,6 +880,16 @@ header .fa-lock {
   .main__seguros .main__seguros1 .main_cf .mainseguros__1b .mainseguros__1b__ic p {
     font-size: 1.25rem;
     margin-top: 1.37rem;
+  }
+  .main__seguros .aseguradoras__box .aseguradoras_ .cardEmpresa {
+    width: 50%;
+    margin-left: 50%;
+  }
+  .main__seguros .aseguradoras__box .aseguradoras_ .nombreEmpresa p {
+    font-size: 1.12rem;
+  }
+  .main__seguros .aseguradoras__box .aseguradoras_ .ubic .direccion {
+    padding: 1rem 2rem 2rem 2rem;
   }
 }
 /*tercer breakpoint lg-xl-*/
