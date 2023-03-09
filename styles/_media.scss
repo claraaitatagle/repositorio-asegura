@@ -1209,7 +1209,54 @@
             }
         }
 
+
     }
+
+        /* MEDIA PAGINA CARRITO */
+        .carrito {
+            .main__carrito {
+                padding-top: 5rem;
+                padding-left: 30%;
+                padding-right: 30%;
+                padding-bottom: 5rem;
+        
+        
+                .main__carrito__contenedor {
+                    width: 100%;
+                    padding: $med3;
+        
+                    .cotizacion {
+                        width: 100%;
+                        padding: $small $med3;
+                    }
+        
+                    .cotizacion__texto__titulo {
+                        font-size: $small2;
+                    }
+        
+                    .cotizacion__borrar {
+                        font-size: $med;
+                    }
+                
+                    .button__carrito i {
+                        font-size: $med;
+                        height: 4rem;
+                        width: 4rem;
+                    }
+        
+                    .precio {
+                        width: 100%;
+                        height: $med3;
+                        font-size: $small2;
+                        margin-bottom: $small;
+                    }
+        
+                    
+                }
+            }
+        }
+    
+
 
 }
 
@@ -1705,50 +1752,48 @@
 
     }
 
-        /* MEDIA PAGINA CARRITO */
-        .carrito {
-
-            .main__carrito {
-                padding-top: 5rem;
-                padding-left: 30%;
-                padding-right: 30%;
-                padding-bottom: 5rem;
-        
-        
-                .main__carrito__contenedor {
+    /* MEDIA PAGINA CARRITO */
+    .carrito {
+        .main__carrito {
+            padding-top: 5rem;
+            padding-left: 25%;
+            padding-right: 25%;
+            padding-bottom: 5rem;
+    
+    
+            .main__carrito__contenedor {
+                width: 100%;
+                padding: $med3;
+    
+                .cotizacion {
                     width: 100%;
-                    padding: $med3;
-        
-                    .cotizacion {
-                        width: 100%;
-                        padding: $small $med3;
-                    }
-        
-                    .cotizacion__texto__titulo {
-                        font-size: $small2;
-                    }
-        
-                    .cotizacion__borrar {
-                        font-size: $med;
-                    }
-
-                
-                    .button__carrito i {
-                        font-size: $med;
-                        height: 4rem;
-                        width: 4rem;
-                    }
-        
-                    .precio {
-                        width: 100%;
-                        height: $med3;
-                        font-size: $small2;
-                        margin-bottom: $small;
-                    }
-        
-                    
+                    padding: $small $med3;
                 }
+    
+                .cotizacion__texto__titulo {
+                    font-size: $small2;
+                }
+    
+                .cotizacion__borrar {
+                    font-size: $med;
+                }
+            
+                .button__carrito i {
+                    font-size: $med;
+                    height: 4rem;
+                    width: 4rem;
+                }
+    
+                .precio {
+                    width: 100%;
+                    height: $med3;
+                    font-size: $small2;
+                    margin-bottom: $small;
+                }
+    
+                
             }
         }
+    }
 
 }

@@ -2,6 +2,12 @@
 
 .carrito {
     height: fit-content;
+    background-image: url(../img/mainfondo.jpg);
+    width: $wh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
 
     .main__carrito {
         padding-top: 3rem;
