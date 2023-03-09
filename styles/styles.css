@@ -597,6 +597,131 @@ header .fa-lock {
   color: #A74949;
 }
 
+/*      PAGINA NOSOTROS    */
+body {
+  height: 100vh;
+}
+
+main {
+  background-image: url(../img/mainfondo.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .nosotros__titulo {
+  padding-top: 5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+main .nosotros__titulo .titulo_nosotros {
+  padding: 1rem;
+  background-color: #143247;
+  color: #F9F9F9;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+main .nosotros__titulo .titulo_nosotros h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  padding: 1rem;
+  color: #F9F9F9;
+  font-size: 1.37rem;
+}
+main .nosotros__titulo .titulo_nosotros p {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+/*      PAGINA CARRITO    */
+.carrito {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.carrito .main__carrito {
+  padding-top: 3rem;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3rem;
+}
+.carrito .main__carrito .main__carrito__contenedor {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  background-color: #143247;
+  border-radius: 0.8rem;
+  padding: 2.18rem;
+}
+.carrito .main__carrito .main__carrito__contenedor .cotizacion {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #F9F9F9;
+  border-radius: 0.8rem 0.8rem 0 0;
+  border: solid 0.1rem #143247;
+  margin: auto;
+  padding: 1.12rem 1.12rem;
+  align-items: center;
+}
+.carrito .main__carrito .main__carrito__contenedor .cotizacion__texto p {
+  color: #143247;
+  text-align: center;
+}
+.carrito .main__carrito .main__carrito__contenedor .cotizacion__texto__titulo {
+  padding: 1.12rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.carrito .main__carrito .main__carrito__contenedor .cotizacion__borrar {
+  font-size: 1.37rem;
+  color: #143247;
+}
+.carrito .main__carrito .main__carrito__contenedor .cotizacion__borrar:hover {
+  transform: scale(1.06);
+}
+.carrito .main__carrito .main__carrito__contenedor .button a {
+  text-decoration: none;
+}
+.carrito .main__carrito .main__carrito__contenedor .button__carrito i {
+  background-color: #d69a9a;
+  border-radius: 100%;
+  border: 0.2rem solid #AD8D91;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.37rem;
+  color: #143247;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carrito .main__carrito .main__carrito__contenedor .precio {
+  background-color: #A74949;
+  color: #F9F9F9;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 2.5rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+  padding: 0.2rem;
+  font-weight: 600;
+  font-size: 1.12rem;
+  margin-bottom: 1.12rem;
+}
+.carrito .main__carrito .main__carrito__contenedor .precio .precio__seguro p:hover {
+  transform: scale(1.04);
+}
+
 /*      MEDIA QUERIES    */
 /*primer breakpoint sm-md*/
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -697,6 +822,43 @@ header .fa-lock {
   .main__seguros .main__seguros1 .main_cf .mainseguros__1b .mainseguros__1b__ic p {
     font-size: 1.25rem;
     margin-top: 1.37rem;
+  }
+  /*MEDIA PAGINA NOSOTROS*/
+  main .nosotros__titulo .titulo_nosotros h2 {
+    font-size: 1.5rem;
+  }
+  main .nosotros__titulo .titulo_nosotros p {
+    font-size: 1.12rem;
+  }
+  /* MEDIA PAGINA CARRITO */
+  .carrito .main__carrito {
+    padding-top: 5rem;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor {
+    width: 100%;
+    padding: 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion {
+    width: 100%;
+    padding: 1.12rem 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__texto__titulo {
+    font-size: 1.12rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__borrar {
+    font-size: 1.87rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .button__carrito i {
+    font-size: 1.87rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .precio {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.12rem;
+    margin-bottom: 1.12rem;
   }
 }
 /*segundo breakpoint md-lg*/
@@ -935,6 +1097,43 @@ header .fa-lock {
   }
   .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
     padding: 2rem 2rem 2rem 2rem;
+  }
+  /*MEDIA PAGINA NOSOTROS*/
+  main .nosotros__titulo .titulo_nosotros h2 {
+    font-size: 1.7rem;
+  }
+  main .nosotros__titulo .titulo_nosotros p {
+    font-size: 1.37rem;
+  }
+  /* MEDIA PAGINA CARRITO */
+  .carrito .main__carrito {
+    padding-top: 5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor {
+    width: 100%;
+    padding: 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion {
+    width: 100%;
+    padding: 1.12rem 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__texto__titulo {
+    font-size: 1.25rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__borrar {
+    font-size: 1.87rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .button__carrito i {
+    font-size: 1.87rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .precio {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.12rem;
   }
 }
 /*tercer breakpoint lg-xl-*/
@@ -1253,6 +1452,13 @@ header .fa-lock {
   .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
     padding: 1rem 1rem 1rem 1rem;
   }
+  /*MEDIA PAGINA NOSOTROS*/
+  main .nosotros__titulo .titulo_nosotros h2 {
+    font-size: 1.8rem;
+  }
+  main .nosotros__titulo .titulo_nosotros p {
+    font-size: 1.12rem;
+  }
 }
 /*cuarto breakpoint xl-xxl-*/
 @media only screen and (min-width: 1100px) {
@@ -1357,7 +1563,10 @@ header .fa-lock {
     }
   }
   .main1 .cont__front__p h2 {
+    margin-left: 7rem;
+    margin-top: 3.5rem;
     font-size: 1.5rem;
+    color: #F9F9F9;
   }
   /*MAIN 2 SETTINGS*/
   .main2 {
@@ -1579,5 +1788,44 @@ header .fa-lock {
   .main__seguros2 .boton__seguro button {
     height: 2.5rem;
     font-size: 1.37rem;
+  }
+  /*MEDIA PAGINA NOSOTROS*/
+  main .nosotros__titulo .titulo_nosotros h2 {
+    font-size: 1.8rem;
+  }
+  main .nosotros__titulo .titulo_nosotros p {
+    font-size: 1.12rem;
+  }
+  /* MEDIA PAGINA CARRITO */
+  .carrito .main__carrito {
+    padding-top: 5rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor {
+    width: 100%;
+    padding: 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion {
+    width: 100%;
+    padding: 1.12rem 2.5rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__texto__titulo {
+    font-size: 1.25rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .cotizacion__borrar {
+    font-size: 1.87rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .button__carrito i {
+    font-size: 1.87rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  .carrito .main__carrito .main__carrito__contenedor .precio {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.12rem;
   }
 }/*# sourceMappingURL=styles.css.map */

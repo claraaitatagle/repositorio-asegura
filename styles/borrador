@@ -1,0 +1,62 @@
+/*PAGINA 5 NO RESPONSIVE CARRITO HTML SECCION*/
+
+.main__carrito {
+    margin: 40px 0;
+}
+
+.main__carrito__contenedor {
+    width: 60%;
+    margin: auto;
+    background-color: #DCE0E4;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.cotizacion {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    background-color: #F9F9F9;
+    border-radius: 10px 10px 0 0;
+    border: solid 4px #143247;
+    margin: auto;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.cotizacion__texto p {
+    color: #143247;
+    text-align: center;
+}
+
+.cotizacion__texto__titulo {
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.cotizacion__borrar {
+    font-size: 30px;
+    color: #143247;
+}
+
+.button__carrito i {
+    font-size: 30px;
+    color: #F9F9F9;
+}
+
+.precio {
+    background-color: #143247;
+    color: #F9F9F9;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

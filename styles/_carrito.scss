@@ -1,0 +1,91 @@
+/*      PAGINA CARRITO    */
+
+.carrito {
+    height: fit-content;
+
+    .main__carrito {
+        padding-top: 3rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 3rem;
+
+
+        .main__carrito__contenedor {
+            width: 100%;
+            height: fit-content;
+            margin: auto;
+            background-color: $color1;
+            border-radius: .8rem;
+            padding: $med2;
+
+            .cotizacion {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: fit-content;
+                background-color: $color3;
+                border-radius: .8rem .8rem 0 0;
+                border: solid .1rem $color1;
+                margin: auto;
+                padding: $small $small;
+                align-items: center;
+            }
+
+            .cotizacion__texto p {
+                color: $color1;
+                text-align: center;
+            }
+
+            .cotizacion__texto__titulo {
+                padding: $small;
+                font-size: $xs;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+
+            .cotizacion__borrar {
+                font-size: $small3;
+                color: $color1;
+            }
+            .cotizacion__borrar:hover {
+                transform: scale(1.06);
+            }
+
+            .button a{
+                text-decoration: none;
+            }
+
+            .button__carrito i {
+                background-color: #d69a9a;
+                border-radius: $wh;
+                border: .2rem solid #AD8D91;
+                height: 4rem;
+                width: 4rem;
+                font-size: $small3;
+                color: $color1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .precio {
+                background-color: $color2;
+                color: $color3;
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                height: $med3;
+                border-radius: 0 0 .8rem .8rem;
+                padding: .2rem;
+                font-weight: 600;
+                font-size: $small;
+                margin-bottom: $small;
+                .precio__seguro p:hover{
+                    transform: scale(1.04);
+                }
+            }
+
+            
+        }
+    }
+}
