@@ -1,5 +1,15 @@
 /*      PAGINA SEGUROS    */
-
+@mixin bot {
+    height: $med2;
+    width: 100%;
+    color: $color1;
+    background-color: $color3;
+    border-radius: .5rem;
+    border: solid .1rem $color1;
+    align-items: center;
+    font-size: $xs;
+}
+/*MAIN 1 SEGUROS */
 .main__seguros {
     height: fit-content;
     width: $wh;
@@ -8,11 +18,14 @@
     .main__seguros1 {
         width: $wh;
         height: fit-content;
+        margin-bottom: 4rem;
 
         .mainseguros__1a h2 {
             @include sizes;
             color: $color1;
             font-size: $small4;
+            margin-bottom: 3rem;
+            padding-top: 2rem;
         }
 
         .main_cf {
@@ -30,8 +43,8 @@
                         background-color: #D3A4A4;
                         border-radius: $wh;
                         border: .2rem solid #AD8D91;
-                        height: 4rem;
-                        width: 4rem;
+                        height: 4.5rem;
+                        width: 4.5rem;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -45,7 +58,7 @@
                 }
 
                 .mainseguros__1b__ic i {
-                    font-size: $small;
+                    font-size: $small2;
                     color: $color3;
                 }
 
@@ -65,4 +78,107 @@
             }
         }
     }
+}
+
+/*MAIN 2 SEGUROS */
+.main__seguros2 {
+    padding-top: 1rem;
+    background-color: $color4;
+    height: fit-content;
+    margin: 0 $med;
+    border-radius: .8rem;
+
+    .seguros2__categoria {
+        display: flex;
+        flex-direction: column;
+        /*cambiar en media!!!!!!!!!!!!!*/
+        justify-content: space-between;
+
+        .categoria {
+            padding-bottom: $xs;
+        }
+
+        .categoria button {
+            @include bot;
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        .categoria button:hover{
+            border: solid .1rem $color2;
+            color: $color2;
+            transform: scale(1.02);
+        }
+        .model2{
+            margin-top: 2rem;
+            width: $wh;
+            .model__padre{
+                form{
+                    
+                    .it{
+
+                        .item {
+                            @include bot;
+                            margin-left: 10%;
+                            width: 80%;
+                            padding-top: .2rem;
+                            padding-left: .5rem;
+                        }
+                        .itf{
+                            padding-bottom: $xs;
+                        }
+                    }
+                    
+                    .seleccion{
+                        width: 80%;
+                        margin-left: 10%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .item_itf{
+                            padding-bottom: $xs;
+                            .item4{
+                                @include bot;
+                                height: fit-content;
+                                padding-top: .2rem;
+                                padding-left: .5rem;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .seguros2__categoria h2 {
+        @include sizes;
+        color: $color1;
+        font-size: $small4;
+    }
+
+    .aseguradoras{
+        .titulo h2{
+            @include sizes;
+            color: $color1;
+            font-size: $small4;
+            margin-bottom: 3rem;
+            padding-top: 3rem; 
+        }
+
+        .aseguradoras__box{
+            .cardEmpresa{
+                width: $wh;
+                height: fit-content;
+                background-color: #143247;
+                border-radius: 1.5rem;
+                margin-top: 5rem;
+                color: #F9F9F9;
+            }
+            
+        }
+    }
+
+
+    
 }

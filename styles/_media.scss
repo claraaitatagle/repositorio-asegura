@@ -166,8 +166,6 @@
     /*    MEDIA  PAGINA SEGUROS    */
 
     .main__seguros {
-        width: $wh;
-        background-color: aqua;
 
         .main__seguros1 {
 
@@ -181,13 +179,13 @@
                     .mainseguros__1b__ic {
 
                         .button {
-                            height: 20rem;
-                            width: 20rem;
+                            height: 5rem;
+                            width: 5rem;
                         }
                     }
 
                     .mainseguros__1b__ic i {
-                        font-size: $large;
+                        font-size: $small5;
                     }
 
 
@@ -468,6 +466,42 @@
             }
 
 
+        }
+    }
+
+
+
+    /*MEDIA PAGINA SEGUROS*/
+    .main__seguros {
+
+        .main__seguros1 {
+
+            .mainseguros__1a h2 {
+                font-size: 1.6rem;
+            }
+
+            .main_cf {
+                .mainseguros__1b {
+
+                    .mainseguros__1b__ic {
+
+                        .button {
+                            height: 5rem;
+                            width: 5rem;
+                        }
+                    }
+
+                    .mainseguros__1b__ic i {
+                        font-size: $small5;
+                    }
+
+
+                    .mainseguros__1b__ic p {
+                        font-size: $small2;
+                        margin-top: $small3;
+                    }
+                }
+            }
         }
     }
 }
@@ -816,6 +850,39 @@
     }
 
 
+    /*MEDIA PAGINA SEGUROS*/
+    .main__seguros {
+
+        .main__seguros1 {
+
+            .mainseguros__1a h2 {
+                font-size: 1.8rem;
+            }
+
+            .main_cf {
+                .mainseguros__1b {
+
+                    .mainseguros__1b__ic {
+
+                        .button {
+                            height: 5rem;
+                            width: 5rem;
+                        }
+                    }
+
+                    .mainseguros__1b__ic i {
+                        font-size: $small5;
+                    }
+
+
+                    .mainseguros__1b__ic p {
+                        font-size: $small2;
+                        margin-top: $small3;
+                    }
+                }
+            }
+        }
+    }
 
 
 }
@@ -1167,6 +1234,40 @@
             }
 
 
+        }
+    }
+
+    /*MEDIA PAGINA SEGUROS*/
+    .main__seguros {
+
+        .main__seguros1 {
+
+            .mainseguros__1a h2 {
+                font-size: $small5;
+            }
+
+            .main_cf {
+                .mainseguros__1b {
+
+                    .mainseguros__1b__ic {
+
+                        .button {
+                            height: 6rem;
+                            width: 6rem;
+                        }
+                    }
+
+                    .mainseguros__1b__ic i {
+                        font-size: 1.8rem;
+                    }
+
+
+                    .mainseguros__1b__ic p {
+                        font-size: $small2;
+                        margin-top: $small3;
+                    }
+                }
+            }
         }
     }
 
