@@ -1,278 +1,253 @@
-/*tercer breakpoint lg-xl-xxl*/
-@media only screen and (min-width:992px) and (max-width:1400px){
-                    /* MEDIA PAGINA 1 INDEX */
-    /*HEADER*/
-.navbar-brand img{
-        width: auto;
-        height: 7rem;
+                    /* PAGINA 2 NO RESPONSIVE SEGUROS */
+
+/*MAIN1 SEGUROS*/
+
+.main__seguros{
+    height: 130rem;
+    width: 100%;
+    background-color: #F9F9F9;
 }
 
-.navbar li a{
-        color: #F9F9F9;
-        font-size: 1.7rem;
+.main__seguros1{
+    width: 100%;
+    height: 38rem;
 }
 
-.dropdown-menu{
-    width: 20rem;
+
+.mainseguros__1a{
+    padding: 4rem;
+    color: #143247;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    word-spacing: .5rem;
 }
 
-.fa-cart-shopping{
-    padding-left: 15rem;
-}
-
-.fa-cart-shopping , .fa-circle-user , .fa-lock {
-    display: block;
-    letter-spacing: 1rem;
-}
-
-    /*MAIN1*/
-
-.main1{
-    background-size: contain;
-    height: fit-content;
-}
-
-.cont{
+.mainseguros__1b{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.imagenMain1{
-    width: 80%;
+.button{
+    background-color: #D3A4A4;
+    border-radius: 100%;
+    border: .4rem solid #AD8D91;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.imagenMain1 img{
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+.mainseguros__1b__ic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.form__box{
-    width: 80%;
-    border-radius: 1.5rem;
-    height: 34rem;
-}
-
-.form__box__1{
-    padding-top: 3rem;
-    width: 92%;
-}
-
-.box{
-    width: 100%;
-    height: 4rem;
-    border-radius: 1.2rem;
-    margin-bottom: 2rem;
-    padding-top: .5rem;
-    font-size: 1.8rem;
-}
-
-.buscarBoton{
-    width: 80%;
-}
-
-.buscarBoton button{
-    border-radius: 1.5rem;
-    height: 4.5rem;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-top: 2rem;
-    padding-bottom: 0.2rem;
-}
-
-.cont__front__p{
-    display: block;
-    margin-top: 5rem;
-    margin-left: 5rem;
-    padding: 4rem;
+.mainseguros__1b__ic i{
+    font-size: 5rem;
     color: #F9F9F9;
-    text-transform: uppercase;
-    text-align: center;
-    width: 55%;
-    font-size: 2.2rem;
-    font-weight: 600;
-    letter-spacing: .15rem;
-    word-spacing: .2rem;
-    /*animacion*/
-    text-shadow: #A74949 .5rem;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-delay: 6s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes aparecer {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
-    /*MAIN2*/
-.main2{
-    padding-bottom: 3rem;
+.mainseguros__1b__ic .button:hover{
+    transition: all .3s;
+    transform: scale(1.06); 
+    cursor: pointer;
+    border: .4rem solid #143247;
+    background-color: #A74949;
 }
 
-.main2__p h2{
-    font-size: 2.2rem;
-    font-weight: 600;
-    letter-spacing: .15rem;
-    word-spacing: .2rem;
+.mainseguros__1b__ic p{
+    color: #143247;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
-.fond{
-    height: 100%;
-    margin-right: .5rem;
-    width: 100%;
+/*responsive*/
+
+
+
+/*MAIN2 SEGUROS*/ 
+
+.main__seguros2{
+    background-color: #DCE0E4;
+    height: 90rem;
+    margin: 0 4rem;
+    border-radius: 1.5rem;
 }
 
-.fond img{
-    height: 20rem;
-}
-
-.fond h1 {
-    font-size: 1.8rem;
-}
-
-.fond h2 {
-    font-size: 1.7rem;
-    text-align: center;
-}
-
-.fond1{
-    border-radius: 1.5rem 0 0 1.5rem;
-}
-
-.fond2{
-    border-radius: 0;
-}
-
-.fond3{
-border-radius: 0 1.5rem 1.5rem 0;
-}
-
-    /*MAIN3*/
-
-.main3__p{
-    font-size: 2.2rem;
-    font-weight: 600;
-    letter-spacing: .15rem;
-    word-spacing: .2rem;
-    padding: 3rem;
-}
-
-.empresa{
-    width: 100%;
-    margin-bottom: 3rem;
-}
-
-.empresas__primero p{
-    font-size: 1.8rem;
-}
-.empresas__segundo p{
-    font-size: 1.7rem;
-}
-
-.empresas__segundo img{
-    height: 6rem;
-}
-
-    /*FOOTER  SETTINGS*/
-
-.foot{
-        display: flex;
-        flex-direction: row;
-        padding: 1rem 0;
-        padding-left: 1rem;
-}
-
-.caja1{
-        width: 30%;
-        border-radius: .5rem;
-}
-
-.caja1 img{
-        height: 13rem;
-        margin-bottom: 1rem;
-}
-
-.caja1 i{
-        font-size: 2.5rem;
-        color: #143247;
-        letter-spacing: 1rem;
-        padding-left: 2rem;
-}
-
-a .fa-google{
-        font-size: 2.3rem;
-}
-
-.caja2{
-        height: 100%;
-        width: 70%;
-        background-color: #143247;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        visibility: visible;
-}
-
-.subboxaP p{
-        color: #F9F9F9;
-        font-size: 1.8rem;
-        text-transform: capitalize;
-        margin-top: 2rem ;
-        padding-bottom: .5rem;
-        font-weight: 500;
+.seguros2__categoria{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
-.caja2 li{
-        list-style: none;
-        padding-bottom: .5rem;
-        padding-right: 10rem;
+.seguros2__categoria p{
+    padding: 4rem;
+    color: #143247;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 650;
+    letter-spacing: .2rem;
+    word-spacing: .5rem;
 }
 
-.caja2 li a{
-        text-decoration: none;
-        color: #F9F9F9;
-        font-size: 1.6rem;
-        list-style: none;
+.categoria{
+    padding-bottom: 2rem;
 }
 
-.caja2 li a:hover{
-        color: #A74949;
-        transition: all .3s;
-}
-
-
-                    /*MEDIA PAGINA 3 SINIESTROS */
-
-.main__siniestros__box p{
-    font-size: 1.8rem;
-}
-
-.itm{
-    padding-top: .5rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
-}
-
-.itm1{
-    width: 31%;
-}
-
-.itm2{
-    width: 24%;
-}
-
-.boton__siniestro button{
+.categoria button{
     height: 5rem;
+    width: 40rem;
+    color: #143247;
+    background-color: #F9F9F9;
+    border-radius: 1.5rem;
+    border: solid .4rem #143247;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.categoria button:hover{
+    border: solid .4rem #A74949;
+    color: #A74949;
+    transform: scale();
+}
+
+.model2{
+    margin-right: 4rem;
+    width: 70rem;
+}
+
+.item {
+    height: 5rem;
+    width: auto;
+    background-color: #F9F9F9;
+    border-radius: 1.5rem;
+    border: solid .4rem #143247;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    color: #143247;
     font-size: 1.8rem;
 }
 
+.item1{
+    width: 70rem;
+}
+
+.fechas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item2{
+    width: 33rem;
+}
+
+.cantidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item3{
+    width: 33rem;
+}
+
+.seleccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item4{
+    padding-left: 2rem;
+    border-radius: 1.5rem;
+    border: solid 4px #143247;
+    background-color: #F9F9F9;
+    width: 33rem;
+    height: 19rem;
+    color: #143247;
+    font-size: 1.8rem;
+}
+
+.check{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+}
+
+.checkboxx{
+    padding-top: 1rem;
+    color: #143247;
+    padding-left: 2rem;
+    overflow: hidden;
+}
+
+
+.titulo{
+    padding: 4rem;
+    color: #143247;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 650;
+    letter-spacing: .2rem;
+    word-spacing: .5rem;
+}
+
+.aseguradoras__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+.cardEmpresa{
+    height: fit-content;
+    width: 23%;
+    background-color: #143247;
+    border-radius: 1.5rem;
+    margin-top: 5rem;
+    color: #F9F9F9;
+
+}
+
+.nombreEmpresa{
+    padding: 2rem 2rem 1rem 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nombreEmpresa p{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.ubic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direccion{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem 2rem 2rem;
+    justify-content: center;
 }
 
 

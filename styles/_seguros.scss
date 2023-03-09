@@ -1,0 +1,68 @@
+/*      PAGINA SEGUROS    */
+
+.main__seguros {
+    height: fit-content;
+    width: $wh;
+    background-color: $color3;
+
+    .main__seguros1 {
+        width: $wh;
+        height: fit-content;
+
+        .mainseguros__1a h2 {
+            @include sizes;
+            color: $color1;
+            font-size: $small4;
+        }
+
+        .main_cf {
+            .mainseguros__1b {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .mainseguros__1b__ic {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .button {
+                        background-color: #D3A4A4;
+                        border-radius: $wh;
+                        border: .2rem solid #AD8D91;
+                        height: 4rem;
+                        width: 4rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .mainseguros__1b__ic {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .mainseguros__1b__ic i {
+                    font-size: $small;
+                    color: $color3;
+                }
+
+                .mainseguros__1b__ic .button:hover {
+                    transition: all .3s;
+                    transform: scale(1.06);
+                    cursor: pointer;
+                    border: .2rem solid $color1;
+                    background-color: $color2;
+                }
+
+                .mainseguros__1b__ic p {
+                    color: $color1;
+                    font-size: $small;
+                    margin-top: $small2;
+                }
+            }
+        }
+    }
+}

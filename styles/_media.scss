@@ -162,6 +162,44 @@
         }
 
     }
+
+    /*    MEDIA  PAGINA SEGUROS    */
+
+    .main__seguros {
+        width: $wh;
+        background-color: aqua;
+
+        .main__seguros1 {
+
+            .mainseguros__1a h2 {
+                font-size: $small5;
+            }
+
+            .main_cf {
+                .mainseguros__1b {
+
+                    .mainseguros__1b__ic {
+
+                        .button {
+                            height: 20rem;
+                            width: 20rem;
+                        }
+                    }
+
+                    .mainseguros__1b__ic i {
+                        font-size: $large;
+                    }
+
+
+                    .mainseguros__1b__ic p {
+                        font-size: $small2;
+                        margin-top: $small3;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 /*segundo breakpoint md-lg*/
@@ -387,51 +425,51 @@
 
     }
 
-        /*MEDIA PAGINA 3 SINIESTROS */
+    /*MEDIA PAGINA 3 SINIESTROS */
 
-        .main__sin {
+    .main__sin {
 
-            .main__siniestros {
-    
-                .main__siniestros__box {
-    
-                    form {
-                        .denuncia {
-                            .denuncia h2 {
-                                @include titles2;
-                                color: $color2;
-                                font-size: 1.8rem;
-                            }
-    
-                            .formulario {
-                                .itm {
-                                    padding-top: .2rem;
-                                    height: $med2;
-                                    font-size: $small;
-                                }
-    
-                                .itm1 {
-                                    width: 40%;
-                                }
-    
-                                .itm2 {
-                                    width: 40%;
-                                }
-                            }
-    
+        .main__siniestros {
+
+            .main__siniestros__box {
+
+                form {
+                    .denuncia {
+                        .denuncia h2 {
+                            @include titles2;
+                            color: $color2;
+                            font-size: 1.8rem;
                         }
-    
-                        .boton__siniestro button {
-                            height: $med3;
-                            font-size: $small3;
+
+                        .formulario {
+                            .itm {
+                                padding-top: .2rem;
+                                height: $med2;
+                                font-size: $small;
+                            }
+
+                            .itm1 {
+                                width: 40%;
+                            }
+
+                            .itm2 {
+                                width: 40%;
+                            }
                         }
-    
+
                     }
+
+                    .boton__siniestro button {
+                        height: $med3;
+                        font-size: $small3;
+                    }
+
                 }
-    
-    
             }
+
+
         }
+    }
 }
 
 
@@ -1083,7 +1121,7 @@
 
     }
 
-    
+
     /*MEDIA PAGINA 3 SINIESTROS */
 
     .main__sin {
@@ -1091,7 +1129,7 @@
         .main__siniestros {
 
             .main__siniestros__box {
-                
+
                 form {
 
                     .denuncia {
