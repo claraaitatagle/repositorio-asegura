@@ -206,6 +206,19 @@
         }
     }
 
-
+    .boton__seguro button{
+        width: $wh;
+        background-color: $color2;
+        height: $med3;
+        border: $color2;
+        color: $color3;
+        font-size: $small;
+    }
+    
+    .boton__seguro button:hover{
+        background-color: $color3;
+        border: solid $color2;
+        color: $color2;
+    }
     
 }
