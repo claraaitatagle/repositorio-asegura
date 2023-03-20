@@ -114,7 +114,7 @@ header .fa-lock {
   height: 1.87rem;
   background-color: #F9F9F9;
   border-radius: 0.6rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.12rem;
   padding-top: 0.1rem;
   padding-left: 1rem;
   color: #143247;
@@ -134,11 +134,6 @@ header .fa-lock {
   font-weight: 500;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
-}
-.main1 .cont__front__form .buscarBoton button:hover {
-  background-color: #F9F9F9;
-  border: #A74949 solid;
-  color: #A74949;
 }
 .main1 .cont__front__p {
   display: none;
@@ -745,7 +740,7 @@ body {
     height: 18.4rem;
     margin-bottom: 0.6rem;
   }
-  .main1 .cont__front__form .form__box .box {
+  .main1 .cont__front__form .form__box .box .box_input {
     height: 2.18rem;
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -885,7 +880,7 @@ body {
     height: 20.5rem;
     margin-bottom: 0.5rem;
   }
-  .main1 .cont .cont__front__form .form__box .box {
+  .main1 .cont .cont__front__form .form__box .box .box_input {
     height: 2.5rem;
     margin-bottom: 1.37rem;
     font-size: 1.25rem;
@@ -1181,17 +1176,17 @@ body {
     height: 21.25rem;
   }
   .main1 .cont .cont__front__form .form__box .form__box__1 {
-    padding-top: 1.87rem;
-    width: 92%;
+    padding-top: 0rem;
+    width: 94%;
   }
-  .main1 .cont .cont__front__form .form__box .box {
+  .main1 .cont .cont__front__form .form__box .box .box_input {
     width: 100%;
     height: 2.18rem;
     border-radius: 0.6rem;
     padding-top: 0.2rem;
     font-size: 1.25rem;
     height: 2.5rem;
-    margin-bottom: 1.37rem;
+    margin-bottom: 0rem;
     font-size: 1.25rem;
   }
   .main1 .cont .cont__front__form .buscarBoton {
@@ -1203,7 +1198,7 @@ body {
     font-size: 1.37rem;
     font-weight: 500;
     margin-top: 1.25rem;
-    padding-bottom: 0.1rem;
+    padding-bottom: 0rem;
     height: 2.5rem;
     font-size: 1.37rem;
     margin-bottom: 1.87rem;
@@ -1235,7 +1230,7 @@ body {
     }
   }
   .main1 .cont__front__p h2 {
-    font-size: 1.5rem;
+    font-size: 1.87rem;
   }
   /*MAIN 2 SETTINGS*/
   .main2 {
@@ -1536,20 +1531,20 @@ body {
   .main1 .cont .cont__front__form .form__box {
     width: 80%;
     border-radius: 0.8rem;
-    height: 21.25rem;
+    height: 23.5rem;
   }
   .main1 .cont .cont__front__form .form__box .form__box__1 {
-    padding-top: 1.87rem;
-    width: 92%;
+    padding-top: 1rem;
+    width: 94%;
   }
-  .main1 .cont .cont__front__form .form__box .box {
+  .main1 .cont .cont__front__form .form__box .box .box_input {
     width: 100%;
-    height: 2.18rem;
+    height: 2.5rem;
     border-radius: 0.6rem;
-    padding-top: 0.2rem;
+    padding-top: 0.1rem;
     font-size: 1.25rem;
     height: 2.5rem;
-    margin-bottom: 1.37rem;
+    margin-bottom: 0rem;
     font-size: 1.25rem;
   }
   .main1 .cont .cont__front__form .buscarBoton {
@@ -1596,7 +1591,7 @@ body {
   .main1 .cont__front__p h2 {
     margin-left: 7rem;
     margin-top: 3.5rem;
-    font-size: 1.5rem;
+    font-size: 1.87rem;
     color: #F9F9F9;
   }
   /*MAIN 2 SETTINGS*/
