@@ -52,9 +52,10 @@
             .cotizacion__borrar {
                 font-size: $small3;
                 color: $color1;
-            }
-            .cotizacion__borrar:hover {
-                transform: scale(1.06);
+                
+                & .cotizacion__borrar:hover {
+                    transform: scale(1.06);
+                }
             }
 
             .button a{
@@ -62,13 +63,12 @@
             }
 
             .button__carrito i {
-                background-color: #d69a9a;
+                background-color: $color1;
                 border-radius: $wh;
-                border: .2rem solid #AD8D91;
                 height: 4rem;
                 width: 4rem;
                 font-size: $small3;
-                color: $color1;
+                color: $color3;
                 display: flex;
                 align-items: center;
                 justify-content: center;

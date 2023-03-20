@@ -1,0 +1,72 @@
+/* VARIABLES AND VALUES SETTINGS */
+
+/*color palette*/
+$color1:#143247;
+$color2: #A74949;
+$color3: #F9F9F9;
+$color4: #DCE0E4;
+
+/*font family*/
+$font:'Open Sans',
+sans-serif;
+
+/*font-sizes*/
+
+$xs: 1rem;
+/*16px*/
+$small:1.12rem;
+/*18px*/
+$small2:1.25rem;
+/*20px*/
+$small3:1.37rem;
+/*22px*/
+$small4:1.37rem;
+/*22px*/
+$small5: 1.5rem;
+/*24px*/
+$med: 1.87rem;
+/*30px*/
+$med2: 2.18rem;
+/*35px*/
+
+/*sizes*/
+$med3: 2.5rem;
+/*40px*/
+$large: 3.75rem;
+/*50px*/
+$large2: 3.75rem;
+/*60px*/
+$xl: 5rem;
+/*80px*/
+
+/*width-height*/
+$wh:100%;
+$wh1:auto;
+$wh2:50%;
+
+/*mixin*/
+@mixin sizes {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    padding: 1rem;
+}
+
+@mixin titles {
+    height: $wh;
+    width: $wh;
+    padding-top: $med;
+}
+
+@mixin bot {
+    height: $med2;
+    width: 100%;
+    color: $color1;
+    background-color: $color3;
+    border-radius: .5rem;
+    border: solid .1rem $color1;
+    align-items: center;
+    font-size: $xs;
+}

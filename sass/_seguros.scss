@@ -1,14 +1,5 @@
 /*      PAGINA SEGUROS    */
-@mixin bot {
-    height: $med2;
-    width: 100%;
-    color: $color1;
-    background-color: $color3;
-    border-radius: .5rem;
-    border: solid .1rem $color1;
-    align-items: center;
-    font-size: $xs;
-}
+
 /*MAIN 1 SEGUROS */
 .main__seguros {
     height: fit-content;

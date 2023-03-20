@@ -87,19 +87,45 @@
                         <div class="form__box__1">
                             <form action="php" method="post" enctype="application/x-www-form-urlencoded">
                                 <div class="box">
-                                    <label for="ubicacion">Ubicación</label>
+                                    <label for="ubicacion"></label>
+                                    <select name="ubicación" required class="box_input">
+                                        <option>Ubicación</option>
+                                        <option>Córdoba</option>
+                                        <option>Buenos Aires</option>
+                                        <option>Santa fe</option>
+                                        <option>San Luis</option>
+                                        <option>San Juan</option>
+                                    </select>
                                 </div>
                                 <div class="box">
-                                    <label for="fecha">Fecha</label>
+                                    <label for="fecha"></label>
+                                    <input type="date" name="fecha" required class="box_input" placeholder="fecha">
                                 </div>
                                 <div class="box">
-                                    <label for="cantidad">Cantidad</label>
+                                    <label for="cantidad"></label>
+                                    <input type="number" name="cantidad" required class="box_input" placeholder="cantidad">
                                 </div>
                                 <div class="box">
-                                    <label for="tiposeguro">Tipo de seguro</label>
+                                    <label for="tiposeguro"></label>
+                                    <select name="ubicación" required class="box_input">
+                                        <option>Tipo de Seguro</option>
+                                        <option>Obra</option>
+                                        <option>Viaje</option>
+                                        <option>Cuidados</option>
+                                        <option>Vehículos</option>
+                                        <option>Actividades</option>
+                                    </select>
                                 </div>
                                 <div class="box">
-                                    <label for="categoría">Categoría</label>
+                                    <label for="categoría"></label>
+                                    <select name="ubicación" required class="box_input">
+                                        <option>Categoría</option>
+                                        <option>Limpieza</option>
+                                        <option>Técnicos</option>
+                                        <option>Mudanzas</option>
+                                        <option>Jardinería</option>
+                                        <option>Albañilería</option>
+                                    </select>
                                 </div>
                             </form>
                         </div>
