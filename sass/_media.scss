@@ -500,17 +500,27 @@
 
                 form {
                     .denuncia {
-                        .denuncia h2 {
+                        h2 {
                             @include titles2;
-                            color: $color2;
-                            font-size: 1.8rem;
+                            color: $color3;
+                            font-size: 1.5rem;
                         }
 
                         .formulario {
+                            .formulario__row {
+                                display: flex;
+                                margin: 0  ;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: $med3;
+                            }
+
                             .itm {
-                                padding-top: .2rem;
-                                height: $med2;
-                                font-size: $small;
+                                .siniestro_input{
+                                    padding-top: .1rem;
+                                    height: $med2;
+                                    font-size: $small;
+                                }
                             }
 
                             .itm1 {
@@ -525,6 +535,7 @@
                     }
 
                     .boton__siniestro button {
+                        padding-top: 0rem;
                         height: $med3;
                         font-size: $small3;
                     }
@@ -1030,17 +1041,24 @@
 
                 form {
                     .denuncia {
-                        .denuncia h2 {
+                        h2 {
                             @include titles2;
-                            color: $color2;
-                            font-size: 1.8rem;
+                            color: $color3;
+                            font-size: 1.7rem;
                         }
 
                         .formulario {
+                            
+                            .formulario__row{
+                                margin-bottom: $med3;
+                            }
+                            
                             .itm {
-                                padding-top: .2rem;
-                                height: $med2;
-                                font-size: $small;
+                                .siniestro_input{
+                                    padding-top: .2rem;
+                                    height: $med2;
+                                    font-size: $small;
+                                }
                             }
 
                             .itm1 {
@@ -1057,6 +1075,8 @@
                     .boton__siniestro button {
                         height: $med3;
                         font-size: $small3;
+                        padding-top: 0rem;
+                        margin-top: 2rem;
                     }
 
                 }
@@ -1590,18 +1610,24 @@
                 form {
 
                     .denuncia {
-                        .denuncia h2 {
+
+                        h2 {
                             @include titles2;
-                            color: $color2;
+                            color: $color3;
                             font-size: 1.8rem;
                         }
 
                         .formulario {
+                            .formulario__row{
+                                margin-bottom: $med3;
+                            }
                             .itm {
-                                padding-top: .2rem;
-                                height: $med2;
-                                font-size: $small;
-                                margin-top: 1rem;
+                                .siniestro_input {
+                                    padding-top: .2rem;
+                                    height: $med2;
+                                    font-size: $small;
+                                    margin-top: 1rem;
+                                }
                             }
 
                             .itm1 {
@@ -1616,6 +1642,8 @@
                     }
 
                     .boton__siniestro button {
+                        margin-top: 2rem;
+                        padding-top: 0rem;
                         height: $med3;
                         font-size: $small3;
                     }

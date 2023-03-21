@@ -341,16 +341,19 @@ header .fa-lock {
   justify-content: center;
   margin-bottom: 1.12rem;
   width: 100%;
+  height: auto;
 }
-.main__sin .main__siniestros .main__siniestros__box form .formulario .itm {
+.main__sin .main__siniestros .main__siniestros__box form .formulario .itm .siniestro_input {
+  width: 100%;
   background-color: #F9F9F9;
   height: 1.87rem;
   border-radius: 0.5rem;
   color: #143247;
   font-size: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.1rem;
   padding-top: 0.1rem;
   margin-right: 0.5rem;
+  padding-left: 1rem;
 }
 .main__sin .main__siniestros .main__siniestros__box form .formulario .itm1 {
   width: 90%;
@@ -365,6 +368,7 @@ header .fa-lock {
   border: #A74949;
   color: #F9F9F9;
   font-size: 1.12rem;
+  margin-top: 1rem;
 }
 .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button:hover {
   background-color: #F9F9F9;
@@ -1011,17 +1015,24 @@ body {
     transition: all 0.3s;
   }
   /*MEDIA PAGINA 3 SINIESTROS */
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia h2 {
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
-    color: #A74949;
-    font-size: 1.8rem;
+    color: #F9F9F9;
+    font-size: 1.5rem;
   }
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
-    padding-top: 0.2rem;
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .formulario__row {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm .siniestro_input {
+    padding-top: 0.1rem;
     height: 2.18rem;
     font-size: 1.12rem;
   }
@@ -1032,6 +1043,7 @@ body {
     width: 40%;
   }
   .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+    padding-top: 0rem;
     height: 2.5rem;
     font-size: 1.37rem;
   }
@@ -1355,16 +1367,19 @@ body {
     transition: all 0.3s;
   }
   /*MEDIA PAGINA 3 SINIESTROS */
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia h2 {
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
-    color: #A74949;
-    font-size: 1.8rem;
+    color: #F9F9F9;
+    font-size: 1.7rem;
   }
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .formulario__row {
+    margin-bottom: 2.5rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm .siniestro_input {
     padding-top: 0.2rem;
     height: 2.18rem;
     font-size: 1.12rem;
@@ -1378,6 +1393,8 @@ body {
   .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
     height: 2.5rem;
     font-size: 1.37rem;
+    padding-top: 0rem;
+    margin-top: 2rem;
   }
   /*MEDIA PAGINA SEGUROS*/
   .main__seguros .main__seguros1 .mainseguros__1a h2 {
@@ -1717,16 +1734,19 @@ body {
     transition: all 0.3s;
   }
   /*MEDIA PAGINA 3 SINIESTROS */
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .denuncia h2 {
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia h2 {
     font-weight: 600;
     letter-spacing: 0.15rem;
     word-spacing: 0.2rem;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
-    color: #A74949;
+    color: #F9F9F9;
     font-size: 1.8rem;
   }
-  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm {
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .formulario__row {
+    margin-bottom: 2.5rem;
+  }
+  .main__sin .main__siniestros .main__siniestros__box form .denuncia .formulario .itm .siniestro_input {
     padding-top: 0.2rem;
     height: 2.18rem;
     font-size: 1.12rem;
@@ -1739,6 +1759,8 @@ body {
     width: 24%;
   }
   .main__sin .main__siniestros .main__siniestros__box form .boton__siniestro button {
+    margin-top: 2rem;
+    padding-top: 0rem;
     height: 2.5rem;
     font-size: 1.37rem;
   }
