@@ -509,14 +509,14 @@
                         .formulario {
                             .formulario__row {
                                 display: flex;
-                                margin: 0  ;
+                                margin: 0;
                                 align-items: center;
                                 justify-content: center;
                                 margin-bottom: $med3;
                             }
 
                             .itm {
-                                .siniestro_input{
+                                .siniestro_input {
                                     padding-top: .1rem;
                                     height: $med2;
                                     font-size: $small;
@@ -606,11 +606,15 @@
 
                         .it {
 
-                            .item {
-                                height: $med3;
-                                margin-left: 15%;
-                                width: 70%;
-                                font-size: $small;
+
+                            .itf {
+
+                                .seguros_input {
+                                    margin-left: 14.6%;
+                                    width: 70%;
+                                    height: $med3;
+                                    font-size: $small;
+                                }
                             }
                         }
 
@@ -618,9 +622,30 @@
                             width: 70%;
                             margin-left: 15%;
 
+
+
+
                             .item_itf {
                                 .item4 {
                                     font-size: $small;
+
+                                    .check {
+                                        .check1 {
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            justify-content: space-around;
+                                            margin: 1rem;
+
+                                            .seguros_input2 {
+                                                height: $med;
+                                                width: 20%;
+                                                color: $color1;
+                                                background-color: $color3;
+                                                border: solid $color1 .08rem;
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -1048,13 +1073,13 @@
                         }
 
                         .formulario {
-                            
-                            .formulario__row{
+
+                            .formulario__row {
                                 margin-bottom: $med3;
                             }
-                            
+
                             .itm {
-                                .siniestro_input{
+                                .siniestro_input {
                                     padding-top: .2rem;
                                     height: $med2;
                                     font-size: $small;
@@ -1162,13 +1187,18 @@
 
                         .it {
 
-                            .item {
-                                height: $med3;
-                                margin-left: 15%;
-                                width: 70%;
-                                font-size: $small;
+
+                            .itf {
+
+                                .seguros_input {
+                                    margin-left: 14.6%;
+                                    width: 70%;
+                                    height: $med3;
+                                    font-size: $small;
+                                }
                             }
                         }
+
 
                         .seleccion {
                             width: 70%;
@@ -1177,9 +1207,28 @@
                             .item_itf {
                                 .item4 {
                                     font-size: $small;
+
+                                    .check {
+                                        .check1 {
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            justify-content: space-around;
+                                            margin: 1rem;
+
+                                            .seguros_input2 {
+                                                height: $med;
+                                                width: 20%;
+                                                color: $color1;
+                                                background-color: $color3;
+                                                border: solid $color1 .08rem;
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
+
 
                     }
                 }
@@ -1618,9 +1667,10 @@
                         }
 
                         .formulario {
-                            .formulario__row{
+                            .formulario__row {
                                 margin-bottom: $med3;
                             }
+
                             .itm {
                                 .siniestro_input {
                                     padding-top: .2rem;

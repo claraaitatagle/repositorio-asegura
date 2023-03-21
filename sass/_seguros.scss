@@ -91,48 +91,70 @@
             margin-left: 20%;
         }
 
-        .categoria button:hover{
+        .categoria button:hover {
             border: solid .1rem $color2;
             color: $color2;
             transform: scale(1.02);
         }
-        .model2{
+
+        .model2 {
             margin-top: 2rem;
             width: $wh;
-            .model__padre{
-                form{
-                    
-                    .it{
 
-                        .item {
-                            @include bot;
-                            margin-left: 10%;
-                            width: 80%;
-                            padding-top: .2rem;
-                            padding-left: .5rem;
-                        }
-                        .itf{
+            .model__padre {
+                form {
+
+                    .it {
+
+                        .itf {
                             padding-bottom: $xs;
-                        }
-                    }
-                    
-                    .seleccion{
-                        width: 80%;
-                        margin-left: 10%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        .item_itf{
-                            padding-bottom: $xs;
-                            .item4{
+
+                            .seguros_input {
                                 @include bot;
-                                height: fit-content;
+                                margin-left: 9%;
+                                width: 80%;
                                 padding-top: .2rem;
                                 padding-left: .5rem;
                             }
                         }
                     }
-                    
+
+                    .seleccion {
+                        width: 80%;
+                        margin-left: 10%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .item_itf {
+                            padding-bottom: $xs;
+
+                            .item4 {
+                                @include bot;
+                                height: fit-content;
+                                padding-top: .2rem;
+                                padding-left: .5rem;
+                                .check{
+                                    .check1{
+                                        font-size: $xs;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        margin-top:1rem;
+                                        margin-bottom:1rem;
+                                        .seguros_input2{
+                                            height: $med;
+                                            width: 40%;
+                                            color: $color1;
+                                            background-color: $color3;
+                                            border: solid $color1 .09rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                 }
             }
         }
@@ -144,19 +166,20 @@
         font-size: $small4;
     }
 
-    .aseguradoras{
+    .aseguradoras {
         margin-bottom: 2rem;
-        .titulo h2{
+
+        .titulo h2 {
             @include sizes;
             color: $color1;
             font-size: $small4;
             margin-bottom: 1rem;
-            margin-top: 1rem; 
+            margin-top: 1rem;
         }
 
-        .aseguradoras__box{
-            .aseguradoras_{
-                .cardEmpresa{
+        .aseguradoras__box {
+            .aseguradoras_ {
+                .cardEmpresa {
                     width: 80%;
                     margin-left: 10%;
                     height: fit-content;
@@ -166,21 +189,25 @@
                     color: $color3;
                     padding-bottom: .2rem;
                 }
-                .nombreEmpresa{
+
+                .nombreEmpresa {
                     padding: $xs $xs .5rem $med;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                 }
-                .nombreEmpresa p{
+
+                .nombreEmpresa p {
                     text-transform: uppercase;
                     font-size: $small;
                 }
-                .ubic{
+
+                .ubic {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    .direccion{
+
+                    .direccion {
                         display: flex;
                         flex-direction: row;
                         padding: 1rem 2rem 2rem 2rem;
@@ -188,11 +215,11 @@
                     }
                 }
             }
-            
+
         }
     }
 
-    .boton__seguro button{
+    .boton__seguro button {
         width: $wh;
         background-color: $color2;
         height: $med3;
@@ -200,11 +227,11 @@
         color: $color3;
         font-size: $small;
     }
-    
-    .boton__seguro button:hover{
+
+    .boton__seguro button:hover {
         background-color: $color3;
         border: solid $color2;
         color: $color2;
     }
-    
+
 }
