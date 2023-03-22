@@ -15,8 +15,9 @@
             @include sizes;
             color: $color1;
             font-size: $small4;
-            margin-bottom: 3rem;
-            padding-top: 2rem;
+            margin-bottom: 4rem;
+            padding-top: 4rem;
+            padding-bottom: 2rem;
         }
 
         .main_cf {
@@ -169,26 +170,6 @@
                 transform: scale(1.02);
             }
         }
-
-
-
-    
-        .boton__seguro button {
-            margin-top: 3rem;
-            width: $wh;
-            background-color: $color2;
-            height: $med3;
-            border: $color2;
-            color: $color3;
-            font-size: $small;
-            padding-top: 0.1rem;
-        }
-    
-        .boton__seguro button:hover {
-            background-color: $color3;
-            border: solid $color2;
-            color: $color2;
-        }
     
 
         .model2 {
@@ -246,12 +227,40 @@
                                         }
                                     }
                                 }
+                                .checkbox{
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    font-size: $xs;
+                                    margin: $xs;
+                                    align-items: center;
+
+                                    .planes{
+                                        margin-top: 1rem;
+                                    }
+                                }
                             }
                         }
                     }
 
                 }
             }
+        }
+        .boton__seguro button {
+            margin-top: 3rem;
+            width: $wh;
+            background-color: $color2;
+            height: $med3;
+            border: $color2;
+            color: $color3;
+            font-size: $small;
+            padding-top: 0.1rem;
+        }
+    
+        .boton__seguro button:hover {
+            background-color: $color3;
+            border: solid $color2;
+            color: $color2;
         }
     }
 

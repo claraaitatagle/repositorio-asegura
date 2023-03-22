@@ -52,12 +52,12 @@
             .cotizacion__borrar {
                 font-size: $small3;
                 color: $color1;
-                
-                & .cotizacion__borrar:hover {
-                    transform: scale(1.06);
-                }
             }
 
+            .cotizacion__borrar:hover {
+                transform: scale(1.06);
+            }
+            
             .button a{
                 text-decoration: none;
             }
