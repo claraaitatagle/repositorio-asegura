@@ -452,13 +452,77 @@ header .fa-lock {
 .main__seguros2 .seguros2__categoria {
   display: flex;
   flex-direction: column;
-  /*cambiar en media!!!!!!!!!!!!!*/
   justify-content: space-between;
 }
-.main__seguros2 .seguros2__categoria .categoria {
+.main__seguros2 .seguros2__categoria .aseguradoras {
+  margin-bottom: 2rem;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  padding: 1rem;
+  color: #143247;
+  font-size: 1.37rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .cardEmpresa {
+  width: 60%;
+  margin-left: 20%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #F9F9F9;
+  border-radius: 0.8rem;
+  border: solid #143247 0.1rem;
+  margin-top: 1.12rem;
+  color: #143247;
+  padding-bottom: 0.2rem;
+  text-align: center;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .cardEmpresa:hover {
+  transform: scale(1.02);
+  border: #A74949 solid;
+  color: #A74949;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .nombreEmpresa {
+  padding: 1rem 1rem 0.5rem 1.87rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .nombreEmpresa p {
+  text-transform: uppercase;
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .ubic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .ubic .direccion {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem 2rem 2rem;
+  justify-content: center;
+}
+.main__seguros2 .seguros2__categoria .model h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  padding: 1rem;
+  color: #143247;
+  font-size: 1.37rem;
+}
+.main__seguros2 .seguros2__categoria .model .categoria {
   padding-bottom: 1rem;
 }
-.main__seguros2 .seguros2__categoria .categoria button {
+.main__seguros2 .seguros2__categoria .model .categoria button {
   height: 2.18rem;
   width: 100%;
   color: #143247;
@@ -470,10 +534,25 @@ header .fa-lock {
   width: 60%;
   margin-left: 20%;
 }
-.main__seguros2 .seguros2__categoria .categoria button:hover {
+.main__seguros2 .seguros2__categoria .model .categoria button:hover {
   border: solid 0.1rem #A74949;
   color: #A74949;
   transform: scale(1.02);
+}
+.main__seguros2 .seguros2__categoria .boton__seguro button {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: #A74949;
+  height: 2.5rem;
+  border: #A74949;
+  color: #F9F9F9;
+  font-size: 1.12rem;
+  padding-top: 0.1rem;
+}
+.main__seguros2 .seguros2__categoria .boton__seguro button:hover {
+  background-color: #F9F9F9;
+  border: solid #A74949;
+  color: #A74949;
 }
 .main__seguros2 .seguros2__categoria .model2 {
   margin-top: 2rem;
@@ -525,8 +604,8 @@ header .fa-lock {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  text-align: center;
 }
 .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 .check .check1 .seguros_input2 {
   height: 1.87rem;
@@ -534,76 +613,7 @@ header .fa-lock {
   color: #143247;
   background-color: #F9F9F9;
   border: solid #143247 0.09rem;
-}
-.main__seguros2 .seguros2__categoria h2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
-  padding: 1rem;
-  color: #143247;
-  font-size: 1.37rem;
-}
-.main__seguros2 .aseguradoras {
-  margin-bottom: 2rem;
-}
-.main__seguros2 .aseguradoras .titulo h2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
-  padding: 1rem;
-  color: #143247;
-  font-size: 1.37rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .cardEmpresa {
-  width: 80%;
-  margin-left: 10%;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #143247;
-  border-radius: 0.8rem;
-  margin-top: 1.12rem;
-  color: #F9F9F9;
-  padding-bottom: 0.2rem;
-}
-.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa {
-  padding: 1rem 1rem 0.5rem 1.87rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa p {
-  text-transform: uppercase;
-  font-size: 1.12rem;
-}
-.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem 2rem 2rem 2rem;
-  justify-content: center;
-}
-.main__seguros2 .boton__seguro button {
-  width: 100%;
-  background-color: #A74949;
-  height: 2.5rem;
-  border: #A74949;
-  color: #F9F9F9;
-  font-size: 1.12rem;
-}
-.main__seguros2 .boton__seguro button:hover {
-  background-color: #F9F9F9;
-  border: solid #A74949;
-  color: #A74949;
+  margin-right: 1rem;
 }
 
 /*      PAGINA NOSOTROS    */
@@ -762,7 +772,7 @@ body {
   .main1 .cont__front__form .form__box .box .box_input {
     height: 2.18rem;
     margin-bottom: 1.25rem;
-    font-size: 1.25rem;
+    font-size: 1.12rem;
     padding-top: 0.1rem;
   }
   .main1 .cont__front__form .buscarBoton {
@@ -902,7 +912,7 @@ body {
   .main1 .cont .cont__front__form .form__box .box .box_input {
     height: 2.5rem;
     margin-bottom: 1.37rem;
-    font-size: 1.25rem;
+    font-size: 1.12rem;
   }
   .main1 .cont .cont__front__form .form__box .form__box__1 {
     padding-top: 1.25rem;
@@ -1078,11 +1088,33 @@ body {
     margin-top: 1.37rem;
   }
   /*main seguros 2*/
-  .main__seguros2 .seguros2__categoria .categoria button {
+  .main__seguros2 .seguros2__categoria .model h2 {
+    font-size: 1.7rem;
+  }
+  .main__seguros2 .seguros2__categoria .model .categoria button {
     width: 50%;
     margin-left: 25%;
     height: 2.5rem;
     font-size: 1.12rem;
+  }
+  .main__seguros2 .seguros2__categoria .aseguradoras .titulo h2 {
+    font-size: 1.7rem;
+  }
+  .main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .cardEmpresa {
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .nombreEmpresa p {
+    font-size: 1.25rem;
+  }
+  .main__seguros2 .seguros2__categoria .aseguradoras .aseguradoras__box .aseguradoras_ .aseguradoras_1 .ubic .direccion {
+    padding: 2rem 2rem 2rem 2rem;
   }
   .main__seguros2 .seguros2__categoria .model2 .model__padre form .it .itf .seguros_input {
     margin-left: 14.6%;
@@ -1110,28 +1142,7 @@ body {
     color: #143247;
     background-color: #F9F9F9;
     border: solid #143247 0.08rem;
-  }
-  .main__seguros2 .seguros2__categoria h2 {
-    font-size: 1.7rem;
-  }
-  .main__seguros2 .aseguradoras .titulo h2 {
-    font-size: 1.7rem;
-  }
-  .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .cardEmpresa {
-    width: 100%;
-    margin-left: 1%;
-    margin-right: 1%;
-  }
-  .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa p {
-    font-size: 1.25rem;
-  }
-  .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
-    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1rem;
   }
   /*MEDIA PAGINA NOSOTROS*/
   main .nosotros__titulo .titulo_nosotros h2 {
@@ -1225,10 +1236,9 @@ body {
     height: 2.18rem;
     border-radius: 0.6rem;
     padding-top: 0.2rem;
-    font-size: 1.25rem;
     height: 2.5rem;
     margin-bottom: 0rem;
-    font-size: 1.25rem;
+    font-size: 1.12rem;
   }
   .main1 .cont .cont__front__form .buscarBoton {
     width: 80%;
@@ -1451,33 +1461,36 @@ body {
     padding: 1rem 2rem 2rem 2rem;
   }
   /*main seguros 2*/
-  .main__seguros2 .seguros2__categoria .categoria button {
+  .main__seguros2 .seguros2__categoria .model h2 {
+    font-size: 1.8rem;
+  }
+  .main__seguros2 .seguros2__categoria .model .categoria button {
     width: 50%;
     margin-left: 25%;
     height: 2.5rem;
     font-size: 1.12rem;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .it .itf .seguros_input {
+  .main__seguros2 .seguros2__categoria .model2 h2 .model__padre form .it .itf .seguros_input {
     margin-left: 14.6%;
     width: 70%;
     height: 2.5rem;
     font-size: 1.12rem;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion {
+  .main__seguros2 .seguros2__categoria .model2 h2 .model__padre form .seleccion {
     width: 70%;
     margin-left: 15%;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 {
+  .main__seguros2 .seguros2__categoria .model2 h2 .model__padre form .seleccion .item_itf .item4 {
     font-size: 1.12rem;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 .check .check1 {
+  .main__seguros2 .seguros2__categoria .model2 h2 .model__padre form .seleccion .item_itf .item4 .check .check1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin: 1rem;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 .check .check1 .seguros_input2 {
+  .main__seguros2 .seguros2__categoria .model2 h2 .model__padre form .seleccion .item_itf .item4 .check .check1 .seguros_input2 {
     height: 1.87rem;
     width: 20%;
     color: #143247;
@@ -1605,7 +1618,7 @@ body {
     font-size: 1.25rem;
     height: 2.5rem;
     margin-bottom: 0rem;
-    font-size: 1.25rem;
+    font-size: 1.12rem;
   }
   .main1 .cont .cont__front__form .buscarBoton {
     width: 80%;
@@ -1715,7 +1728,7 @@ body {
     font-size: 1.37rem;
   }
   .main3 .fil .card .empresas__segundo .centrar p {
-    font-size: 1.37rem;
+    font-size: 1.12rem;
   }
   .main3 .fil .card .empresas__segundo img {
     height: 4rem;
@@ -1827,16 +1840,23 @@ body {
     margin-top: 1.37rem;
   }
   /*main seguros 2*/
-  .main__seguros2 .seguros2__categoria .categoria button {
+  .main__seguros2 .seguros2__categoria .model h2 {
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .main__seguros2 .seguros2__categoria .model .categoria button {
     width: 50%;
     margin-left: 25%;
     height: 2.5rem;
     font-size: 1.12rem;
   }
-  .main__seguros2 .seguros2__categoria .model2 .model__padre form .it .item {
-    height: 2.5rem;
-    margin-left: 15%;
+  .main__seguros2 .seguros2__categoria .model2 .model__padre form .it .itf .seguros_input {
+    margin-left: 14.6%;
     width: 70%;
+    height: 2.5rem;
     font-size: 1.12rem;
   }
   .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion {
@@ -1845,6 +1865,20 @@ body {
   }
   .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 {
     font-size: 1.12rem;
+  }
+  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 .check .check1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  .main__seguros2 .seguros2__categoria .model2 .model__padre form .seleccion .item_itf .item4 .check .check1 .seguros_input2 {
+    height: 1.87rem;
+    width: 20%;
+    color: #143247;
+    background-color: #F9F9F9;
+    border: solid #143247 0.08rem;
   }
   .main__seguros2 .seguros2__categoria h2 {
     font-weight: 600;
@@ -1871,13 +1905,13 @@ body {
     margin-right: 1%;
   }
   .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .nombreEmpresa p {
-    font-size: 1.12rem;
+    font-size: 1.25rem;
   }
   .main__seguros2 .aseguradoras .aseguradoras__box .aseguradoras_ .ubic .direccion {
     padding: 1rem 1rem 1rem 1rem;
   }
   .main__seguros2 .boton__seguro button {
-    height: 2.5rem;
+    height: 2.7rem;
     font-size: 1.37rem;
   }
   /*MEDIA PAGINA NOSOTROS*/

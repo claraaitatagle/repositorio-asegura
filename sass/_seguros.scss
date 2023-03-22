@@ -78,24 +78,118 @@
     .seguros2__categoria {
         display: flex;
         flex-direction: column;
-        /*cambiar en media!!!!!!!!!!!!!*/
         justify-content: space-between;
 
-        .categoria {
-            padding-bottom: $xs;
+        .aseguradoras {
+            margin-bottom: 2rem;
+    
+            h2 {
+                @include sizes;
+                color: $color1;
+                font-size: $small4;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+            }
+    
+            .aseguradoras__box {
+                .aseguradoras_ {
+                    .aseguradoras_1{
+                        .cardEmpresa {
+                            width: 60%;
+                            margin-left: 20%;
+                            height: fit-content;
+                            background-color: $color3;
+                            border-radius: .8rem ;
+                            border: solid $color1 .1rem;
+                            margin-top: $small;
+                            color: $color1;
+                            padding-bottom: .2rem;
+                            text-align: center;
+                        }
+
+                        .cardEmpresa:hover{
+                            transform: scale(1.02);
+                            border: $color2 solid;
+                            color: $color2;
+                        }
+        
+                        .nombreEmpresa {
+                            padding: $xs $xs .5rem $med;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+        
+                        .nombreEmpresa p {
+                            text-transform: uppercase;
+                            font-size: $small;
+                            font-weight: 600;
+                        }
+        
+                        .ubic {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+        
+                            .direccion {
+                                display: flex;
+                                flex-direction: row;
+                                padding: 1rem 2rem 2rem 2rem;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                    
+                }
+    
+            }
         }
 
-        .categoria button {
-            @include bot;
-            width: 60%;
-            margin-left: 20%;
+        .model{
+
+            h2{
+            @include sizes;
+            color: $color1;
+            font-size: $small4;
+            }
+            
+            .categoria {
+                padding-bottom: $xs;
+            }
+    
+            .categoria button {
+                @include bot;
+                width: 60%;
+                margin-left: 20%;
+            }
+    
+            .categoria button:hover {
+                border: solid .1rem $color2;
+                color: $color2;
+                transform: scale(1.02);
+            }
         }
 
-        .categoria button:hover {
-            border: solid .1rem $color2;
+
+
+    
+        .boton__seguro button {
+            margin-top: 3rem;
+            width: $wh;
+            background-color: $color2;
+            height: $med3;
+            border: $color2;
+            color: $color3;
+            font-size: $small;
+            padding-top: 0.1rem;
+        }
+    
+        .boton__seguro button:hover {
+            background-color: $color3;
+            border: solid $color2;
             color: $color2;
-            transform: scale(1.02);
         }
+    
 
         .model2 {
             margin-top: 2rem;
@@ -140,14 +234,15 @@
                                         display: flex;
                                         flex-direction: column;
                                         align-items: center;
-                                        margin-top:1rem;
-                                        margin-bottom:1rem;
+                                        margin: $xs 0;
+                                        text-align: center;
                                         .seguros_input2{
                                             height: $med;
                                             width: 40%;
                                             color: $color1;
                                             background-color: $color3;
                                             border: solid $color1 .09rem;
+                                            margin-right: $xs;
                                         }
                                     }
                                 }
@@ -160,78 +255,5 @@
         }
     }
 
-    .seguros2__categoria h2 {
-        @include sizes;
-        color: $color1;
-        font-size: $small4;
-    }
-
-    .aseguradoras {
-        margin-bottom: 2rem;
-
-        .titulo h2 {
-            @include sizes;
-            color: $color1;
-            font-size: $small4;
-            margin-bottom: 1rem;
-            margin-top: 1rem;
-        }
-
-        .aseguradoras__box {
-            .aseguradoras_ {
-                .cardEmpresa {
-                    width: 80%;
-                    margin-left: 10%;
-                    height: fit-content;
-                    background-color: $color1;
-                    border-radius: .8rem;
-                    margin-top: $small;
-                    color: $color3;
-                    padding-bottom: .2rem;
-                }
-
-                .nombreEmpresa {
-                    padding: $xs $xs .5rem $med;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                }
-
-                .nombreEmpresa p {
-                    text-transform: uppercase;
-                    font-size: $small;
-                }
-
-                .ubic {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    .direccion {
-                        display: flex;
-                        flex-direction: row;
-                        padding: 1rem 2rem 2rem 2rem;
-                        justify-content: center;
-                    }
-                }
-            }
-
-        }
-    }
-
-    .boton__seguro button {
-        width: $wh;
-        background-color: $color2;
-        height: $med3;
-        border: $color2;
-        color: $color3;
-        font-size: $small;
-    }
-
-    .boton__seguro button:hover {
-        background-color: $color3;
-        border: solid $color2;
-        color: $color2;
-    }
-
+    
 }
