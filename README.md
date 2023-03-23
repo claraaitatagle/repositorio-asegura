@@ -9,4 +9,4 @@ Queremos que los usuarios encuentren lo que buscan de una forma sencilla, contan
 
 Con la website buscamos generar un cambio en la forma de selección de seguros, proponiendo un sistema de filtros que permiten que las personas puedan buscar su seguro según sus necesidades, dejando atrás la contratación por periodos mínimos.
 
-Nuestra web aún está en proceso de desarrollo, y en este punto, contar con tu apoyo sería decisivo. Si la propuesta te parece interesante, no dudes en ponerte en contacto.
+Nuestra web aún está en proceso de desarrollo, esperamos de a poco ir mejorando para brindarte la mejor experiencia con la contratacion de seguros temporales online!
