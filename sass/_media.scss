@@ -1,11 +1,3 @@
-@mixin titles2 {
-    font-weight: 600;
-    letter-spacing: .15rem;
-    word-spacing: .2rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.8rem;
-}
-
 /*      MEDIA QUERIES    */
 
 /*primer breakpoint sm-md*/
@@ -19,10 +11,12 @@
             width: auto;
             height: $large;
         }
+
     }
 
     /*MAIN 1 SETTINGS*/
     .main1 {
+
         .cont__front__form {
 
             .imagenMain1 {
@@ -37,35 +31,36 @@
                 margin-bottom: $med3;
             }
 
-            form{
+            form {
                 padding-left: 18%;
+
                 .form__box {
                     width: 80%;
                     height: 18.4rem;
                     margin-bottom: .6rem;
-    
+
                     .box {
-    
+
                         .box_input {
                             height: $med2;
                             margin-bottom: $small2;
                             font-size: $small;
                             padding-top: .1rem;
                         }
-    
+
                     }
                 }
-    
+
                 .buscarBoton {
                     width: 80%;
                 }
-    
+
                 .buscarBoton button {
                     font-size: $small2;
                     height: $med3;
                 }
             }
-            
+
         }
 
     }
@@ -109,6 +104,7 @@
 
 
     .main3 {
+
         height: $wh;
 
         .main3__p {
@@ -146,7 +142,6 @@
             }
         }
 
-
     }
 
     /*FOOTER SETTINGS*/
@@ -175,10 +170,9 @@
     /*    MEDIA  PAGINA SEGUROS    */
 
     .main__seguros {
-
         .main__seguros1 {
 
-            .mainseguros__1a h2 {
+            h1 {
                 font-size: $small5;
             }
 
@@ -197,7 +191,6 @@
                         font-size: $small5;
                     }
 
-
                     .mainseguros__1b__ic p {
                         font-size: $small2;
                         margin-top: $small3;
@@ -205,34 +198,30 @@
                 }
             }
         }
+
     }
 
     /*MEDIA PAGINA NOSOTROS*/
     main {
-
         .nosotros__titulo {
 
-            .titulo_nosotros h2 {
+            .titulo_nosotros h1 {
                 font-size: $small5;
             }
 
             .titulo_nosotros p {
                 font-size: $small;
-
             }
         }
-
     }
 
     /* MEDIA PAGINA CARRITO */
     .carrito {
-
         .main__carrito {
             padding-top: 5rem;
             padding-left: 7%;
             padding-right: 7%;
             padding-bottom: 5rem;
-
 
             .main__carrito__contenedor {
                 width: 100%;
@@ -261,12 +250,9 @@
                     font-size: $small;
                     margin-bottom: $small;
                 }
-
-
             }
         }
     }
-
 }
 
 /*segundo breakpoint md-lg*/
@@ -275,7 +261,6 @@
     /* MEDIA PAGINA 1 INDEX */
     /*HEADER SETTINGS*/
     header {
-
         .navbar-brand img {
             width: auto;
             height: $large;
@@ -285,7 +270,6 @@
             color: $color3;
             font-size: $small;
         }
-
     }
 
     /*MAIN 1 SETTINGS*/
@@ -302,31 +286,33 @@
                     margin-top: $med3;
                     margin-bottom: $small3;
                 }
-                form{
+
+                form {
                     padding-left: 20%;
+
                     .form__box {
                         width: 80%;
                         height: 20.5rem;
                         margin-bottom: .5rem;
-    
+
                         .box {
                             .box_input {
                                 height: $med3;
                                 margin-bottom: $small3;
                                 font-size: $small;
                             }
-    
+
                         }
-    
+
                         .form__box__1 {
                             padding-top: $small2;
                         }
                     }
-    
+
                     .buscarBoton {
                         width: 80%;
                     }
-    
+
                     .buscarBoton button {
                         height: $med3;
                         font-size: $small3;
@@ -385,12 +371,9 @@
                     .fond3 {
                         border-radius: 0 .8rem .8rem 0;
                     }
-
                 }
             }
-
         }
-
     }
 
     /*MAIN 3 SETTINGS*/
@@ -414,7 +397,6 @@
 
                 }
 
-
                 .empresas__segundo {
 
                     .centrar p {
@@ -425,7 +407,6 @@
                 .empresas__segundo img {
                     height: 4rem;
                 }
-
             }
         }
     }
@@ -495,23 +476,25 @@
             color: $color2;
             transition: all .3s;
         }
-
     }
 
     /*MEDIA PAGINA 3 SINIESTROS */
 
     .main__sin {
-
         .main__siniestros {
 
             .main__siniestros__box {
 
                 form {
                     .denuncia {
-                        h2 {
+                        h1 {
                             @include titles2;
                             color: $color3;
                             font-size: 1.5rem;
+                        }
+
+                        h2 {
+                            font-size: $small3;
                         }
 
                         .formulario {
@@ -539,7 +522,6 @@
                                 width: 40%;
                             }
                         }
-
                     }
 
                     .boton__siniestro button {
@@ -547,11 +529,8 @@
                         height: $med3;
                         font-size: $small3;
                     }
-
                 }
             }
-
-
         }
     }
 
@@ -559,10 +538,9 @@
 
     /*MEDIA PAGINA SEGUROS*/
     .main__seguros {
-
         .main__seguros1 {
 
-            .mainseguros__1a h2 {
+            .mainseguros__1a h1 {
                 font-size: 1.7rem;
             }
 
@@ -588,12 +566,10 @@
                 }
             }
         }
-
     }
 
     /*main seguros 2*/
     .main__seguros2 {
-
         .seguros2__categoria {
 
             .aseguradoras {
@@ -627,9 +603,7 @@
                                 }
                             }
                         }
-
                     }
-
                 }
             }
 
@@ -645,7 +619,6 @@
                     height: $med3;
                     font-size: $small;
                 }
-
             }
 
             .model2 {
@@ -707,21 +680,18 @@
                                 }
                             }
                         }
-
                     }
                 }
             }
         }
-
     }
 
     /*MEDIA PAGINA NOSOTROS*/
 
     .main__nosotros {
-
         .nosotros__titulo {
 
-            .titulo_nosotros h2 {
+            .titulo_nosotros h1 {
                 font-size: 1.7rem;
             }
 
@@ -729,18 +699,15 @@
                 font-size: $small3;
             }
         }
-
     }
 
     /* MEDIA PAGINA CARRITO */
     .carrito {
-
         .main__carrito {
             padding-top: 5rem;
             padding-left: 15%;
             padding-right: 15%;
             padding-bottom: 5rem;
-
 
             .main__carrito__contenedor {
                 width: 100%;
@@ -769,8 +736,6 @@
                     font-size: $small2;
                     margin-bottom: $small;
                 }
-
-
             }
         }
     }
@@ -799,7 +764,6 @@
             padding-bottom: 1rem;
         }
 
-
         .dropdown-menu {
             width: 12rem;
         }
@@ -810,17 +774,28 @@
         display: none;
     }
 
-    .fa-cart-shopping,
-    .fa-circle-user,
-    .fa-lock {
-        display: none;
+    .nav-item {
+        .fa-cart-shopping {
+            color: $color3;
+            margin-left: 1.5rem;
+        }
+
+        .fa-cart-shopping:hover {
+            color: $color2;
+        }
+
+        .fa-cart-shopping,
+        .fa-circle-user,
+        .fa-lock {
+            display: block;
+            font-size: $small;
+        }
     }
 
 
 
     /*MAIN 1 SETTINGS*/
     .main1 {
-
         .cont {
             display: flex;
             flex-direction: row;
@@ -857,7 +832,6 @@
                             font-size: $small;
                         }
                     }
-
                 }
 
                 .buscarBoton {
@@ -876,6 +850,10 @@
                     margin-bottom: $med;
                 }
             }
+        }
+
+        h1 {
+            font-size: $small5;
         }
 
         .cont__front__p {
@@ -910,7 +888,6 @@
         .cont__front__p h2 {
             font-size: $med;
         }
-
     }
 
     /*MAIN 2 SETTINGS*/
@@ -960,12 +937,9 @@
                     .fond3 {
                         border-radius: 0 .8rem .8rem 0;
                     }
-
                 }
             }
-
         }
-
     }
 
 
@@ -991,7 +965,6 @@
 
                 }
 
-
                 .empresas__segundo {
 
                     .centrar p {
@@ -1002,7 +975,6 @@
                 .empresas__segundo img {
                     height: 3rem;
                 }
-
             }
         }
     }
@@ -1072,7 +1044,6 @@
             color: $color2;
             transition: all .3s;
         }
-
     }
 
     /*MEDIA PAGINA 3 SINIESTROS */
@@ -1085,10 +1056,14 @@
 
                 form {
                     .denuncia {
-                        h2 {
+                        h1 {
                             @include titles2;
                             color: $color3;
                             font-size: 1.7rem;
+                        }
+
+                        h2 {
+                            font-size: $small5;
                         }
 
                         .formulario {
@@ -1113,7 +1088,6 @@
                                 width: 24%;
                             }
                         }
-
                     }
 
                     .boton__siniestro button {
@@ -1122,21 +1096,17 @@
                         padding-top: 0rem;
                         margin-top: 2rem;
                     }
-
                 }
             }
-
-
         }
     }
 
 
     /*MEDIA PAGINA SEGUROS*/
     .main__seguros {
-
         .main__seguros1 {
 
-            .mainseguros__1a h2 {
+            .mainseguros__1a h1 {
                 font-size: 1.8rem;
             }
 
@@ -1155,7 +1125,6 @@
                         font-size: $med;
                     }
 
-
                     .mainseguros__1b__ic p {
                         font-size: $small2;
                         margin-top: $small3;
@@ -1163,13 +1132,10 @@
                 }
             }
         }
-
-
     }
 
     /*main seguros 2*/
     .main__seguros2 {
-
         .seguros2__categoria {
 
             .aseguradoras {
@@ -1203,9 +1169,7 @@
                                 }
                             }
                         }
-
                     }
-
                 }
             }
 
@@ -1222,7 +1186,6 @@
                     font-size: $small;
                 }
             }
-
 
             .model2 {
                 .model__padre {
@@ -1277,23 +1240,19 @@
                                 }
                             }
                         }
-
                     }
                 }
             }
         }
-
-
     }
 
 
     /*MEDIA PAGINA NOSOTROS*/
 
     main {
-
         .nosotros__titulo {
 
-            .titulo_nosotros h2 {
+            .titulo_nosotros h1 {
                 font-size: 1.8rem;
             }
 
@@ -1301,19 +1260,15 @@
                 font-size: $small;
             }
         }
-
-
     }
 
     /* MEDIA PAGINA CARRITO */
     .carrito {
-
         .main__carrito {
             padding-top: 5rem;
             padding-left: 15%;
             padding-right: 15%;
             padding-bottom: 5rem;
-
 
             .main__carrito__contenedor {
                 width: 100%;
@@ -1342,14 +1297,9 @@
                     font-size: $small2;
                     margin-bottom: $small;
                 }
-
-
             }
         }
     }
-
-
-
 }
 
 /*cuarto breakpoint xl-xxl-*/
@@ -1375,7 +1325,6 @@
 
         }
 
-
         .dropdown-menu {
             width: 12rem;
         }
@@ -1387,7 +1336,8 @@
             color: $color3;
             margin-left: 5rem;
         }
-        .fa-cart-shopping:hover{
+
+        .fa-cart-shopping:hover {
             color: $color2;
         }
 
@@ -1403,7 +1353,6 @@
 
     /*MAIN 1 SETTINGS*/
     .main1 {
-
         .cont {
             display: flex;
             flex-direction: row;
@@ -1419,17 +1368,17 @@
                     margin-bottom: $small2;
                 }
 
-                form{
+                form {
                     .form__box {
                         width: 80%;
                         border-radius: .8rem;
                         height: 23.5rem;
-    
+
                         .form__box__1 {
                             padding-top: 1rem;
                             width: 94%;
                         }
-    
+
                         .box {
                             .box_input {
                                 width: $wh;
@@ -1441,15 +1390,15 @@
                                 margin-bottom: 0rem;
                                 font-size: $small;
                             }
-    
+
                         }
-    
+
                     }
-    
+
                     .buscarBoton {
                         width: 80%;
                     }
-    
+
                     .buscarBoton button {
                         border-radius: .8rem;
                         height: $med2;
@@ -1460,9 +1409,8 @@
                         height: $med3;
                         font-size: $small3;
                         margin-bottom: $med3;
-
                     }
-                }   
+                }
             }
         }
 
@@ -1496,13 +1444,16 @@
             }
         }
 
-        .cont__front__p h2 {
+        h1 {
+            font-size: $med;
+        }
+
+        .cont__front__p {
             margin-left: 7rem;
             margin-top: 3.5rem;
             font-size: $med;
             color: $color3;
         }
-
     }
 
     /*MAIN 2 SETTINGS*/
@@ -1552,12 +1503,9 @@
                     .fond3 {
                         border-radius: 0 .8rem .8rem 0;
                     }
-
                 }
             }
-
         }
-
     }
 
 
@@ -1581,7 +1529,6 @@
                     }
 
                 }
-
 
                 .empresas__segundo {
 
@@ -1643,7 +1590,6 @@
                 padding-bottom: .5rem;
                 font-weight: 500;
             }
-
         }
 
         .caja2 li {
@@ -1663,14 +1609,12 @@
             color: $color2;
             transition: all .3s;
         }
-
     }
 
 
     /*MEDIA PAGINA 3 SINIESTROS */
 
     .main__sin {
-
         .main__siniestros {
 
             .main__siniestros__box {
@@ -1679,10 +1623,14 @@
 
                     .denuncia {
 
-                        h2 {
+                        h1 {
                             @include titles2;
                             color: $color3;
                             font-size: 1.8rem;
+                        }
+
+                        h2 {
+                            font-size: 1.6rem;
                         }
 
                         .formulario {
@@ -1716,20 +1664,18 @@
                         height: $med3;
                         font-size: $small3;
                     }
-
                 }
             }
-
         }
     }
 
     /*MEDIA PAGINA SEGUROS*/
     .main__seguros {
-
         .main__seguros1 {
-
-            .mainseguros__1a h2 {
+            .mainseguros__1a h1 {
                 @include titles2;
+                padding-bottom: 0rem;
+
             }
 
             .main_cf {
@@ -1747,7 +1693,6 @@
                         font-size: 1.8rem;
                     }
 
-
                     .mainseguros__1b__ic p {
                         font-size: $small2;
                         margin-top: $small3;
@@ -1759,7 +1704,6 @@
 
     /*main seguros 2*/
     .main__seguros2 {
-
         .seguros2__categoria {
 
             .aseguradoras {
@@ -1793,9 +1737,7 @@
                                 }
                             }
                         }
-
                     }
-
                 }
             }
 
@@ -1821,7 +1763,6 @@
 
                         .it {
 
-
                             .itf {
 
                                 .seguros_input {
@@ -1832,7 +1773,6 @@
                                 }
                             }
                         }
-
 
                         .seleccion {
                             width: 70%;
@@ -1874,52 +1814,52 @@
                                 }
                             }
                         }
-
-
                     }
                 }
             }
         }
 
-        .seguros2__categoria h2 {
-            @include titles2;
-        }
 
-        .aseguradoras {
-
-            .titulo h2 {
+        .seguros2__categoria {
+            .seguros2__categoria h2 {
                 @include titles2;
             }
 
-            .aseguradoras__box {
-                .aseguradoras_ {
-                    display: flex;
-                    flex-direction: row;
-                    width: 100%;
+            .aseguradoras {
 
-                    .cardEmpresa {
+                .titulo h2 {
+                    @include titles2;
+                }
+
+                .aseguradoras__box {
+                    .aseguradoras_ {
+                        display: flex;
+                        flex-direction: row;
                         width: 100%;
-                        margin-left: 1%;
-                        margin-right: 1%;
-                    }
 
-                    .nombreEmpresa p {
-                        font-size: $small2;
-                    }
+                        .cardEmpresa {
+                            width: 100%;
+                            margin-left: 1%;
+                            margin-right: 1%;
+                        }
 
-                    .ubic {
-                        .direccion {
-                            padding: 1rem 1rem 1rem 1rem;
+                        .nombreEmpresa p {
+                            font-size: $small2;
+                        }
+
+                        .ubic {
+                            .direccion {
+                                padding: 1rem 1rem 1rem 1rem;
+                            }
                         }
                     }
                 }
-
             }
-        }
 
-        .boton__seguro button {
-            height: $large;
-            font-size: $med2;
+            .boton__seguro button {
+                height: $med3;
+                font-size: $small2;
+            }
         }
 
     }
@@ -1928,10 +1868,9 @@
     /*MEDIA PAGINA NOSOTROS*/
 
     .main__nosotros {
-
         .nosotros__titulo {
 
-            h2 {
+            h1 {
                 font-size: 1.8rem;
             }
 
@@ -1939,7 +1878,6 @@
                 font-size: $small;
             }
         }
-
     }
 
     /* MEDIA PAGINA CARRITO */
@@ -1949,7 +1887,6 @@
             padding-left: 25%;
             padding-right: 25%;
             padding-bottom: 5rem;
-
 
             .main__carrito__contenedor {
                 width: 100%;
@@ -1981,9 +1918,7 @@
                     margin-bottom: $small;
                 }
 
-
             }
         }
     }
-
 }

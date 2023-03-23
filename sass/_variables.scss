@@ -70,3 +70,11 @@ $wh2:50%;
     align-items: center;
     font-size: $xs;
 }
+
+@mixin titles2 {
+    font-weight: 600;
+    letter-spacing: .15rem;
+    word-spacing: .2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}

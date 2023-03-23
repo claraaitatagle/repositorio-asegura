@@ -11,7 +11,11 @@
         height: fit-content;
         margin-bottom: 4rem;
 
-        .mainseguros__1a h2 {
+        h1{
+            font-size: $small3;
+        }
+        
+        .mainseguros__1a  {
             @include sizes;
             color: $color1;
             font-size: $small4;

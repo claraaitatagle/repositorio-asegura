@@ -14,7 +14,13 @@
             margin: $med;
 
             form {
-                .denuncia h2 {
+                .denuncia h1 {
+                    @include sizes;
+                    color: $color3;
+                    font-size: $small4;
+                }
+
+                h2{
                     @include sizes;
                     color: $color3;
                     font-size: $small4;
